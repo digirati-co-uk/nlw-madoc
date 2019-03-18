@@ -21,7 +21,7 @@ services:
 
   mysql:
     container_name: madoc-nlw-database
-    image: "digirati/madoc-nlw-db"
+    image: "digirati/madoc-platform-db"
     environment:
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
       - MYSQL_DATABASE=${MYSQL_DATABASE}
