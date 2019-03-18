@@ -21,7 +21,9 @@ services:
 
   mysql:
     container_name: madoc-nlw-database
-    image: "digirati/madoc-platform-db"
+    build:
+      context: ./
+      dockerfile: Dockerfile.db
     environment:
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
       - MYSQL_DATABASE=${MYSQL_DATABASE}
