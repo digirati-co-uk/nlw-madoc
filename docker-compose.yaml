@@ -1,0 +1,46 @@
+version: "3"
+services:
+  omeka-ecosystem:
+    container_name: madoc-nlw-omeka
+    build:
+      context: .
+    links:
+      - mysql
+    environment:
+      - APP_ENV=${APP_ENV}
+      - OMEKA__DATABASE_HOST=madoc-nlw-database
+      - OMEKA__DATABASE_NAME=${MYSQL_DATABASE}
+      - OMEKA__DATABASE_USER=${MYSQL_USER}
+      - OMEKA__DATABASE_PASSWORD=${MYSQL_PASSWORD}
+      - OMEKA__DATABASE_PORT=${MYSQL_PORT}
+      - OMEKA_ELUCIDATE_URL=nlw-annotation-server
+    ports:
+      - "8898:80"
+    volumes:
+      - ./nlw-madoc-theme:/srv/omeka/themes/nlw-madoc-theme
+
+  mysql:
+    container_name: madoc-nlw-database
+    image: "digirati/madoc-nlw-db"
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_PORT=${MYSQL_PORT}
+
+  annotation-server:
+    container_name: nlw-annotation-server
+    image: "garyttierneydi/elucidate-server:1.4.3-SNAPSHOT"
+    links:
+      - annotation-database:database
+    environment:
+      - DATABASE_USER=postgres
+      - CATALINA_OPTS=-Ddb.url=jdbc:postgresql://database:5432/annotations -Ddb.user="postgres" -Ddb.password=$MYSQL_PASSWORD
+    ports:
+      - 8899:8080
+  annotation-database:
+    container_name: nlw-annotation-database
+    image: "garyttierneydi/elucidate-database:1.4.3-SNAPSHOT"
+    environment:
+      - POSTGRES_DB=annotations
