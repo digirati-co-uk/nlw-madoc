@@ -1,0 +1,35 @@
+#!/usr/bin/env php
+<?php
+
+$username = trim(isset($argv[1]) ? $argv[1] : '');
+$email = trim(isset($argv[2]) ? $argv[2] : '');
+$password = trim(isset($argv[3]) ? $argv[3] : '');
+$group = trim(isset($argv[4]) ? $argv[4] : 'global_admin');
+
+if (!$password || !$email || !$username) {
+    echo <<<TXT
+usage:
+
+    bin/generate-user <username> <email> <password> [group]
+    
+example:
+
+    bin/generate-user username email@example.org Password123!        
+
+TXT;
+    exit;
+}
+
+$template = <<<SQL
+
+LOCK TABLES `user` WRITE;
+/*!40000 ALTER TABLE `user` DISABLE KEYS */;
+INSERT INTO `user` (email, name, created, modified, password_hash, role, is_active) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', 1);
+/*!40000 ALTER TABLE `user` ENABLE KEYS */;
+UNLOCK TABLES;
+
+SQL;
+
+$date = date( 'Y-m-d H:i:s');
+
+echo sprintf($template, $email, $username, $date, $date, password_hash($password, PASSWORD_DEFAULT), $group);
