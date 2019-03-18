@@ -12,7 +12,7 @@ install:
   - docker build -t digirati/nlw-madoc .
 
 before_script:
-  - docker-compose up
+  - docker-compose up -d
   - ./.travis/wait-for-omeka.sh
 
 script:
