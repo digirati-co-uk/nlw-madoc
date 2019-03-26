@@ -1,4 +1,4 @@
-FROM digirati/madoc-platform-db
+FROM digirati/madoc-platform-db:ae88b72
 
 # Add our database over-rides
 COPY ./database/sql/* /docker-entrypoint-initdb.d/
