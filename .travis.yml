@@ -26,6 +26,14 @@ cache:
   directories:
     - $HOME/docker
 
+deploy:
+  # Publishing tags
+  - provider: script
+    script: bash ./.travis/docker-deploy.sh digirati/nlw-madoc
+    on:
+      tags: true
+
 if: |
   branch = master OR \
-  type = pull_request
+  type = pull_request OR \
+  tag IS present
