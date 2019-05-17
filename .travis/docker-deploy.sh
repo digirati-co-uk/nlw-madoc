@@ -2,9 +2,18 @@
 
 set -e;
 
+function announce() {
+    if [[ -z "$SLACK_WEBHOOK_URL" ]]; then
+        echo -e "Slack is not set up, set SLACK_WEBHOOK_URL, skipping message.";
+    else
+        ANNOUNCE_TEXT='{"text": "'$*'", "link_names": 1}'
+        curl -X POST -d ''"${ANNOUNCE_TEXT}"'' ${SLACK_WEBHOOK_URL}
+    fi;
+}
+
 if [[ -z "$1" ]]; then
-  echo -e "You must pass in a docker image tag to build";
-  exit 0;
+    echo -e "You must pass in a docker image tag to build";
+    exit 0;
 fi;
 
 if [[ -z "$TRAVIS_BRANCH" ]]; then
@@ -26,8 +35,9 @@ fi;
 REPO_NAME="$1"
 
 if [[ "$(docker images -q ${REPO_NAME} 2> /dev/null)" == "" ]]; then
-  echo -e "\033[00;32m Image was NOT built, failing the build";
-  exit 1
+    announce "Docker image was not built, failing build for commit ${TRAVIS_COMMIT}"
+    echo -e "\033[00;32m Image was NOT built, failing the build";
+    exit 1
 fi;
 
 # Login to Docker hub.
@@ -48,8 +58,8 @@ fi;
 # ..and push
 docker push ${REPO_NAME}
 
-# Only deploy on master + no pull request.
-if [[ "$TRAVIS_BRANCH" = "master" ]] && [[ "$TRAVIS_PULL_REQUEST" = "false" ]]; then
+# Only deploy when its a tag.
+if [[ -n "$TRAVIS_TAG" ]]; then
     if [[ -z "ECS_CLUSTER" ]]; then
         echo "No ECS_CLUSTER configured, skipping deployment";
         exit 0;
@@ -66,10 +76,13 @@ if [[ "$TRAVIS_BRANCH" = "master" ]] && [[ "$TRAVIS_PULL_REQUEST" = "false" ]]; 
     fi;
 
     echo
-    echo "Deploying to ECS..."
+    echo "Deploying to ECS...";
+    announce "Deploying ${TRAVIS_TAG} to ECS...";
     aws ecs update-service --cluster ${ECS_CLUSTER} --region ${ECS_REGION} --service ${ECS_SERVICE} --force-new-deployment
 
     echo
     echo "Waiting for services to stabilize...";
     aws ecs wait services-stable --cluster ${ECS_CLUSTER} --region ${ECS_REGION} --services ${ECS_SERVICE}
+
+    announce "${TRAVIS_TAG} successfully deployed";
 fi;
