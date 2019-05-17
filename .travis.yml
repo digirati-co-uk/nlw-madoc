@@ -12,7 +12,8 @@ install:
   - docker build -t digirati/nlw-madoc .
 
 before_script:
-  - pip install awscli
+  - pip install --user awscli
+  - export PATH=$PATH:$HOME/.local/bin
   - docker-compose up -d
   - ./.travis/wait-for-omeka.sh
 
@@ -26,6 +27,7 @@ cache:
   bundler: true
   directories:
     - $HOME/docker
+    - $HOME/.local
 
 deploy:
   # Publishing tags
