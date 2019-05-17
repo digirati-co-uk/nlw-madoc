@@ -3,7 +3,8 @@
 set -e;
 
 if [[ -z "$1" ]]; then
-  echo -e "You must pass in a docker image tag to build"
+  echo -e "You must pass in a docker image tag to build";
+  exit 0;
 fi;
 
 if [[ -z "$TRAVIS_BRANCH" ]]; then
@@ -46,3 +47,29 @@ fi;
 
 # ..and push
 docker push ${REPO_NAME}
+
+# Only deploy on master + no pull request.
+if [[ "$TRAVIS_BRANCH" = "master" ]] && [[ "$TRAVIS_PULL_REQUEST" = "false" ]]; then
+    if [[ -z "ECS_CLUSTER" ]]; then
+        echo "No ECS_CLUSTER configured, skipping deployment";
+        exit 0;
+    fi;
+
+    if [[ -z "ECS_REGION" ]]; then
+        echo "No ECS_REGION configured, skipping deployment";
+        exit 0;
+    fi;
+
+    if [[ -z "ECS_SERVICE" ]]; then
+        echo "No ECS_SERVICE configured, skipping deployment";
+        exit 0;
+    fi;
+
+    echo
+    echo "Deploying to ECS..."
+    aws ecs update-service --cluster ${ECS_CLUSTER} --region ${ECS_REGION} --service ${ECS_SERVICE} --force-new-deployment
+
+    echo
+    echo "Waiting for services to stabilize...";
+    aws ecs wait services-stable --cluster ${ECS_CLUSTER} --region ${ECS_REGION} --services ${ECS_SERVICE}
+fi;
