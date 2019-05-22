@@ -20,6 +20,7 @@ services:
       - "8898:80"
     volumes:
       - ./nlw-madoc-theme:/srv/omeka/themes/nlw-madoc-theme
+      - ./translations/s:/srv/omeka/translations/s
 
   mysql:
     container_name: madoc-nlw-database
