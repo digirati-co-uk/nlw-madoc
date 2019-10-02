@@ -1,0 +1,3 @@
+database/sensitive/*.sql
+!database/sensitive/.gitignore
+./nlw-madoc-migration
