@@ -9,7 +9,7 @@ ADD --chown=www-data:www-data ./translations/omeka/cy.mo /srv/omeka/application/
 ADD --chown=www-data:www-data ./translations/omeka/cy.po /srv/omeka/application/language/cy.po
 ADD --chown=www-data:www-data ./translations/madoc/cy.mo /srv/omeka/translations/madoc/cy.mo
 ADD --chown=www-data:www-data ./translations/madoc/cy.po /srv/omeka/translations/madoc/cy.po
-ADD --chown=www-data:www-data ./translations/s/translations/s/war-tribunal-records/navigation/cy.mo /srv/omeka/translations/s/war-tribunal-records/navigation/cy.mo
-ADD --chown=www-data:www-data ./translations/s/translations/s/war-tribunal-records/navigation/cy.po /srv/omeka/translations/s/war-tribunal-records/navigation/cy.po
+ADD --chown=www-data:www-data ./translations/s/war-tribunal-records/navigation/cy.mo /srv/omeka/translations/s/war-tribunal-records/navigation/cy.mo
+ADD --chown=www-data:www-data ./translations/s/war-tribunal-records/navigation/cy.po /srv/omeka/translations/s/war-tribunal-records/navigation/cy.po
 
 # Add any other configuration needed.
