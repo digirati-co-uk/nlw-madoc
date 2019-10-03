@@ -1,0 +1,4394 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n==3 ? "
+"3 : n==6 ? 4 : 5);\n"
+"Language: cy\n"
+
+msgid "The %1$s adapter does not implement the search operation."
+msgstr ""
+
+msgid "The %1$s adapter does not implement the create operation."
+msgstr ""
+
+msgid "The %1$s adapter does not implement the batch create operation."
+msgstr ""
+
+msgid "The %1$s adapter does not implement the read operation."
+msgstr ""
+
+msgid "The %1$s adapter does not implement the update operation."
+msgstr ""
+
+msgid "The %1$s adapter does not implement the batch update operation."
+msgstr ""
+
+msgid "The %1$s adapter does not implement the delete operation."
+msgstr ""
+
+msgid "The %1$s adapter does not implement the batch delete operation."
+msgstr ""
+
+msgid "The \"%s\" field is not available in the %s entity class."
+msgstr ""
+
+msgid "Permission denied for the current user to %s the %s resource."
+msgstr ""
+
+msgid "%s entity with criteria %s not found"
+msgstr ""
+
+msgid "Welcome"
+msgstr "Croeso"
+
+msgid "Welcome to your new site. This is an example page."
+msgstr "Croeso i'ch safle newydd. Tudalen enghreifftiol yw hon."
+
+msgid "Browse"
+msgstr "Pori"
+
+msgid "The API does not support the \"%s\" resource."
+msgstr "Nid yw'r API yn cefnogi adnodd \"%s\"."
+
+msgid "[Untitled]"
+msgstr "[Di-deitl]"
+
+msgid "Default"
+msgstr "Diofyn"
+
+msgid "Asset uploads must be POSTed."
+msgstr "Rhaid i asedau lwythwyd i fyny fod yn POSTed."
+
+msgid "Add another item?"
+msgstr "Ychwanegu eitem arall?"
+
+msgid "Add another item set?"
+msgstr "Ychwanegu set eitemau arall?"
+
+msgid "Active"
+msgstr "Gweithredol"
+
+msgid "Not active"
+msgstr "Ddim yn weithredol"
+
+msgid "Not installed"
+msgstr "Heb ei osod"
+
+msgid "Needs upgrade"
+msgstr "Angen diweddaru"
+
+msgid "Error"
+msgstr "Gwall"
+
+msgid "Not found"
+msgstr "Heb ei ganfod"
+
+msgid "Invalid module"
+msgstr "Modiwl annilys"
+
+msgid "Invalid INI"
+msgstr "INI annilys"
+
+msgid "Invalid Omeka S version"
+msgstr "Fersiwn Omeka S annilys"
+
+msgid "Add another resource template?"
+msgstr "Ychwanegu templed adnodd arall?"
+
+msgid "Add another user?"
+msgstr "Ychwanegu defnyddiwr arall?"
+
+msgid "Must provide a vocabulary file or a vocabulary URL"
+msgstr ""
+
+msgid "Import another vocabulary?"
+msgstr "Ychwanegu geirfa arall?"
+
+msgid "Resource not found with id %s."
+msgstr "Heb ganfod adnodd gyda id %s."
+
+msgid "Migration file did not contain the expected class"
+msgstr "Doedd y ffeil mudo ddim yn cynnwys y dosbarth disgwyliedig"
+
+msgid "Unknown"
+msgstr "Anhysbys"
+
+msgid "OpenSeadragon is not available unless JavaScript is enabled."
+msgstr "Nid yw OpenSeadragon ar gael onibai bod JavaScript wedi'i alluogi."
+
+msgid "Module \"%s\" is marked as \"%s\" and cannot be activated"
+msgstr "Marciwyd modiwl \"%s\" fel \"%s\" ac ni ellir ei fywiogi"
+
+msgid "Module \"%s\" not in database during activation"
+msgstr "Doedd modiwl \"%s\" ddim yn y gronfa ddata wrth ei fywiogi"
+
+msgid "Module \"%s\" is marked as \"%s\" and cannot be deactivated"
+msgstr "Marciwyd modiwl \"%s\" fel \"%s\" ac ni ellir ei dadfywiogi"
+
+msgid "Module \"%s\" not in database during deactivation"
+msgstr "Doedd modiwl \"%s\" ddim yn y gronfa ddata wrth ei dadfywiogi"
+
+msgid "Module \"%s\" is marked as \"%s\" and cannot be installed"
+msgstr ""
+
+msgid "Module \"%s\" is marked as \"%s\" and cannot be uninstalled"
+msgstr ""
+
+msgid "Module \"%s\" not found in database during uninstallation"
+msgstr ""
+
+msgid "Module \"%s\" is marked as \"%s\" and cannot be upgraded"
+msgstr ""
+
+msgid "Module \"%s\" not found in database during upgrade"
+msgstr ""
+
+msgid "Permission denied for the current user to %s the %s module."
+msgstr ""
+
+msgid ""
+"Permission denied for the current user to access the %1$s action of the %2$s "
+"controller."
+msgstr ""
+
+msgid "This layout is invalid."
+msgstr "Mae'r cynllun hwn yn annilys"
+
+msgid "Options"
+msgstr "Dewisiadau"
+
+msgid "Break type"
+msgstr "Math o doriad"
+
+msgid "Depth"
+msgstr "Dyfnder"
+
+msgid "Number of child page levels to display"
+msgstr "Nifer o lefelau is-dudalennau i'w harddangos"
+
+msgid "Home"
+msgstr ""
+
+msgid "Greetings, %1$s"
+msgstr ""
+
+msgid "Reset your password for %s"
+msgstr "Ailosod eich cyfrinair ar gyfer %s"
+
+msgid "Greetings"
+msgstr ""
+
+msgid "User activation for %s"
+msgstr "Bywiogi defnyddiwr ar gyfer %s"
+
+msgid "Show attachment title"
+msgstr "Dangos teitl atodiad"
+
+msgid "Thumbnail type"
+msgstr "Math o fân-lun"
+
+msgid "Cancel"
+msgstr "Diddymu"
+
+msgid "is exactly"
+msgstr "yn union"
+
+msgid "is not exactly"
+msgstr "ddim yn union"
+
+msgid "contains"
+msgstr "yn cynnwys"
+
+msgid "does not contain"
+msgstr "ddim yn cynnwys"
+
+msgid "is resource with ID"
+msgstr ""
+
+msgid "is not resource with ID"
+msgstr ""
+
+msgid "has any value"
+msgstr "ag unrhyw werth"
+
+msgid "has no values"
+msgstr "heb unrhyw werth"
+
+msgid "Class"
+msgstr ""
+
+msgid "Unknown class"
+msgstr ""
+
+msgid "Unknown property"
+msgstr "Nodwedd anhysbys"
+
+msgid "[Any property]"
+msgstr "[Unrhyw nodwedd]"
+
+msgid "OR"
+msgstr ""
+
+msgid "AND"
+msgstr ""
+
+msgid "Search"
+msgstr "Chwilio"
+
+msgid "Template"
+msgstr ""
+
+msgid "Unknown template"
+msgstr ""
+
+msgid "Item set"
+msgstr "Set eitemau"
+
+msgid "Unknown item set"
+msgstr "Set eitemau anhysbys"
+
+msgid "User"
+msgstr "Defnyddiwr"
+
+msgid "Unknown user"
+msgstr "Defnyddiwr anhysbys"
+
+msgid "Site"
+msgstr "Safle"
+
+msgid "Unknown site"
+msgstr "Safle anhysbys"
+
+msgid "Email"
+msgstr "Ebost"
+
+msgid "Name"
+msgstr ""
+
+msgid "Role"
+msgstr "Rôl"
+
+msgid "Unknown role"
+msgstr ""
+
+msgid "Is active"
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgid "no"
+msgstr ""
+
+msgid "Has permission in site"
+msgstr ""
+
+msgid "The maximum upload size is %s MB."
+msgstr "Y mwyafswm maint llwytho i fyny yw %s MB."
+
+msgid "Search by item set"
+msgstr ""
+
+msgid "Expand"
+msgstr ""
+
+msgid "Searches for items that are assigned to any of these item sets."
+msgstr ""
+
+msgid "Remove value"
+msgstr "Tynnu gwerth"
+
+msgid "Add new item set"
+msgstr ""
+
+msgid "Query text"
+msgstr ""
+
+msgid "Search by value"
+msgstr "Chwilio yn ôl gwerth"
+
+msgid "Property"
+msgstr ""
+
+msgid "Query type"
+msgstr ""
+
+msgid "Add new value"
+msgstr "Ychwanegu gwerth newydd"
+
+msgid "Search by class"
+msgstr "Chwilio yn ôl dosbarth"
+
+msgid "Searches for items that are any of these classes."
+msgstr ""
+
+msgid "Add new class"
+msgstr ""
+
+msgid "Search by template"
+msgstr ""
+
+msgid "Searches for items that use any of these templates."
+msgstr ""
+
+msgid "Add new template"
+msgstr ""
+
+msgid "In site pool"
+msgstr ""
+
+msgid "Search by email"
+msgstr ""
+
+msgid "Search by name"
+msgstr ""
+
+msgid "Search by role"
+msgstr ""
+
+msgid "Search by activity"
+msgstr ""
+
+msgid "[No asset selected]"
+msgstr "[Dim ased wedi'i ddewis]"
+
+msgid "Select"
+msgstr "Dewis"
+
+msgid "Clear"
+msgstr "Clirio"
+
+msgid "No item selected"
+msgstr "Dim eitem wedi'i ddewis"
+
+msgid "Open attachment options"
+msgstr "Agor dewsiadau atodiad"
+
+msgid "Delete attachment"
+msgstr "Dileu atodiad"
+
+msgid "Restore attachment"
+msgstr "Adfer atodiad"
+
+msgid "Attachments"
+msgstr "Atodiadau"
+
+msgid "Add attachment"
+msgstr "Ychwanegu atodiad"
+
+msgid "Block to be removed"
+msgstr "Bloc i'w dynnu"
+
+msgid "Restore value"
+msgstr "Adfer gwerth"
+
+msgid "Item sets"
+msgstr "Setiau eitemau"
+
+msgid "Value to be removed"
+msgstr "Gwerth i'w dynnu"
+
+msgid "Make private"
+msgstr ""
+
+msgid "Set language"
+msgstr "Gosod iaith"
+
+msgid "Language"
+msgstr "Iaith"
+
+msgid "No resource selected"
+msgstr "Dim adnodd wedi'i ddewis"
+
+msgid "Items"
+msgstr "Eitemau"
+
+msgid "Media"
+msgstr "Cyfrwng"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "Label"
+msgstr "Label"
+
+msgid "Close"
+msgstr "Cau"
+
+msgid "Delete %s"
+msgstr "Dileu %s"
+
+msgid "Are you sure you would like to delete this %s?"
+msgstr ""
+
+msgid "No filter"
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Learn more"
+msgstr ""
+
+msgid "Click on an item set to add it to the edit panel."
+msgstr ""
+
+msgid "Filter item sets"
+msgstr ""
+
+msgid "All item sets"
+msgstr ""
+
+msgid "[no owner]"
+msgstr ""
+
+msgid "More info"
+msgstr "Mwy o wybodaeth"
+
+msgid "Filter by property"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Title"
+msgstr "Teitl"
+
+msgid "Alternate label"
+msgstr ""
+
+msgid "Type"
+msgstr "Math"
+
+msgid "Query"
+msgstr "Ymholiad"
+
+msgid "Page"
+msgstr "Tudalen"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "of %s"
+msgstr "o %s"
+
+msgid "Previous"
+msgstr "Blaenorol"
+
+msgid "Next"
+msgstr "Nesaf"
+
+msgid "%s–%s of %s"
+msgstr ""
+
+msgid "0 results"
+msgstr "0 canlyniad"
+
+msgid "Select property"
+msgstr "Dewis nodwedd"
+
+msgid "Add text value"
+msgstr "Ychwanegu gwerth testun"
+
+msgid "Remove"
+msgstr "Tynnu"
+
+msgid "Add resource value"
+msgstr ""
+
+msgid "Resource ID"
+msgstr ""
+
+msgid "Add URI value"
+msgstr ""
+
+msgid "Click on a property to add it to the edit panel."
+msgstr "Cliciwch ar nodwedd i'w hychwanegu at y panel golygu"
+
+msgid "Filter properties"
+msgstr "Hidlo nodweddion"
+
+msgid "Add property"
+msgstr "Ychwanegu nodwedd"
+
+msgid ""
+"Omeka S automatically selects a thumbnail from among attached media for a "
+"resource. You may use an image of your choice instead by choosing an asset "
+"here."
+msgstr ""
+
+msgid "Collapse"
+msgstr ""
+
+msgid "Property term for development use"
+msgstr ""
+
+msgid "Select the first value type."
+msgstr ""
+
+msgid "Add value"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Omeka resource"
+msgstr "Adnodd Omeka"
+
+msgid "Select resource"
+msgstr ""
+
+msgid "Prev"
+msgstr "Blaen"
+
+msgid "Switch to descending order"
+msgstr "Newid i drefn disgynnol"
+
+msgid "Switch to ascending order"
+msgstr "Newid i drefn esgynnol"
+
+msgid "Sort by %s"
+msgstr "Trefnu yn ôl %s"
+
+msgid "Sort by"
+msgstr ""
+
+msgid "Sort order"
+msgstr ""
+
+msgid "Ascending"
+msgstr "Esgynnol"
+
+msgid "Descending"
+msgstr "Disgynnol"
+
+msgid "Sort"
+msgstr "Trefnu"
+
+msgid "Signed in as %s"
+msgstr "Wedi mewngofnodi fel %s"
+
+msgid "Logout"
+msgstr "Allgofnodi"
+
+msgid "Log in"
+msgstr "Mewngofnodi"
+
+msgid "Click on a user to add it to the edit panel."
+msgstr ""
+
+msgid "Filter users"
+msgstr ""
+
+msgid "All users (%s)"
+msgstr ""
+
+msgid "A new version of Omeka S is available. %s"
+msgstr ""
+
+msgid "Get the new version."
+msgstr ""
+
+msgid "Forbidden"
+msgstr "Gwaharddedig"
+
+msgid "Reason: %s"
+msgstr "Rheswm: %s"
+
+msgid "Omeka S encountered an error"
+msgstr "Wynebodd Omeka S wall"
+
+msgid "Details:"
+msgstr "Manylion:"
+
+msgid "Resources"
+msgstr "Adnoddau"
+
+msgid "Admin"
+msgstr "Gweinyddwr"
+
+msgid "Navigation menu"
+msgstr "Dewislen llywio"
+
+msgid "Search site"
+msgstr "Chwilio'r safle"
+
+msgid "User menu"
+msgstr "Dewislen defnyddiwr"
+
+msgid "not logged in"
+msgstr "heb fewngofnodi"
+
+msgid "Advanced options"
+msgstr "Dewisiadau uwch"
+
+msgid "Resource type"
+msgstr "Math o adnodd"
+
+msgid "Search items"
+msgstr "Chwilio eitemau"
+
+msgid "Search item sets"
+msgstr "Chwilio setiau eitemau"
+
+msgid "Search media"
+msgstr "Chwilio cyfryngau"
+
+msgid "View public site"
+msgstr "Gweld safle gyhoeddus"
+
+msgid "Modules"
+msgstr "Modylau"
+
+msgid "Omeka S"
+msgstr "Omeka S"
+
+msgid "version %s"
+msgstr "fersiwn %s"
+
+msgid "System information"
+msgstr "Gwybodaeth system"
+
+msgid "User manual"
+msgstr ""
+
+msgid "Support forums"
+msgstr ""
+
+msgid "Powered by Omeka S"
+msgstr ""
+
+msgid "Upload new asset"
+msgstr "Llwytho ased newydd"
+
+msgid "Upload"
+msgstr "Llwytho"
+
+msgid "Select asset"
+msgstr "Dewis ased"
+
+msgid "No owner"
+msgstr ""
+
+msgid "Delete asset"
+msgstr "Dileu ased"
+
+msgid "Cancel delete"
+msgstr "Diddymu ased"
+
+msgid "assets"
+msgstr "asedau"
+
+msgid ""
+"Are you sure you want to delete this asset? It will no longer be available "
+"to any resources currently using it."
+msgstr ""
+
+msgid "Confirm delete"
+msgstr "Cadarnhau dileu"
+
+msgid "Admin dashboard"
+msgstr "Dangosfwrdd gweinyddu"
+
+msgid "Welcome to the %s admin dashboard!"
+msgstr "Croeso i ddangosfwrdd gweinyddu %s !"
+
+msgid "Manage resources"
+msgstr "Rheoli adnoddau"
+
+msgid "Items (%s)"
+msgstr "Eitemau (%s)"
+
+msgid "Add new item"
+msgstr "Ychwanegu eitem newydd"
+
+msgid "Item sets (%s)"
+msgstr "Setiau eitemau (%s)"
+
+msgid "Vocabularies (%s)"
+msgstr "Geirfaoedd (%s)"
+
+msgid "Import new vocabulary"
+msgstr "Llwytho geirfa newydd"
+
+msgid "Resource templates (%s)"
+msgstr "Templedi adnoddau (%s)"
+
+msgid "Add new resource template"
+msgstr "Ychwanegu templed adnoddau newydd"
+
+msgid "Manage sites"
+msgstr "Rheoli safleoedd"
+
+msgid "Edit"
+msgstr "Golygu"
+
+msgid "Add site"
+msgstr "Ychwanegu safle"
+
+msgid "New item set"
+msgstr "Set eitemau newydd"
+
+msgid "Batch edit item sets"
+msgstr "Golygu swp o setiau eitemau"
+
+msgid "Save"
+msgstr "Cadw"
+
+msgid "Affected item sets"
+msgstr ""
+
+msgid "You are editing the following %s item sets:"
+msgstr ""
+
+msgid "You are editing %s item sets."
+msgstr ""
+
+msgid "Identifier"
+msgstr "Dynodwr"
+
+msgid "Owner"
+msgstr ""
+
+msgid "Created"
+msgstr ""
+
+msgid "Advanced search"
+msgstr ""
+
+msgid "Batch actions"
+msgstr ""
+
+msgid "Edit selected"
+msgstr ""
+
+msgid "Edit all"
+msgstr ""
+
+msgid "Delete selected"
+msgstr ""
+
+msgid "Delete all"
+msgstr ""
+
+msgid "Go"
+msgstr ""
+
+msgid "Select all"
+msgstr ""
+
+msgid "Select item set"
+msgstr ""
+
+msgid "Private"
+msgstr "Preifat"
+
+msgid "Delete"
+msgstr "Dileu"
+
+msgid "Details"
+msgstr "Manylion"
+
+msgid "Delete item sets"
+msgstr ""
+
+msgid "Are you sure you would like to delete the selected item sets?"
+msgstr ""
+
+msgid ""
+"%s: this action will permanently delete %s item sets and cannot be undone."
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid ""
+"Are you sure you would like to delete all item sets on all pages of this "
+"result?"
+msgstr ""
+
+msgid "Are you sure?"
+msgstr "Wyt ti'n siwr?"
+
+msgid "Omeka could not find any item sets."
+msgstr ""
+
+msgid "Values"
+msgstr ""
+
+msgid "Thumbnail"
+msgstr ""
+
+msgid "Close item set"
+msgstr ""
+
+msgid "Open item set"
+msgstr ""
+
+msgid "Make public"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Visibility"
+msgstr ""
+
+msgid "Public"
+msgstr "Cyhoeddus"
+
+msgid "Open to additions"
+msgstr ""
+
+msgid "Closed to additions"
+msgstr ""
+
+msgid "Metadata"
+msgstr "Metadata"
+
+msgid "Linked resources"
+msgstr "Adnoddau sy'n perthyn"
+
+msgid "Edit item set"
+msgstr ""
+
+msgid "View items"
+msgstr "Gweld Pob Eitem"
+
+msgid "The following resources link to this item set:"
+msgstr ""
+
+msgid "No resources link to this item set."
+msgstr ""
+
+msgid "item sets"
+msgstr ""
+
+msgid "New item"
+msgstr "Eitem newydd"
+
+msgid "Add"
+msgstr ""
+
+msgid "Batch edit items"
+msgstr "Golygu Mwy Nag Un Eitem"
+
+msgid "Affected items"
+msgstr ""
+
+msgid "You are editing the following %s items:"
+msgstr ""
+
+msgid "You are editing %s items."
+msgstr ""
+
+msgid "Select item"
+msgstr ""
+
+msgid "Delete items"
+msgstr "Dileu Eitemau"
+
+msgid "Are you sure you would like to delete the selected items?"
+msgstr ""
+
+msgid "%s: this action will permanently delete %s items and cannot be undone."
+msgstr ""
+
+msgid ""
+"Are you sure you would like to delete all items on all pages of this result?"
+msgstr ""
+
+msgid "Omeka could not find any items."
+msgstr ""
+
+msgid "Remove item set"
+msgstr ""
+
+msgid ""
+"This item is part of no item sets. Add it to an item set using the interface "
+"to the right."
+msgstr ""
+
+msgid "Add to item set"
+msgstr ""
+
+msgid "Media to be removed"
+msgstr ""
+
+msgid ""
+"This resource has no media.<br>Start adding media using the sidebar to the "
+"right."
+msgstr ""
+
+msgid "Add media"
+msgstr ""
+
+msgid "Edit item"
+msgstr "Golygu eitem"
+
+msgid "The following resources link to this item:"
+msgstr ""
+
+msgid "No resources link to this item."
+msgstr ""
+
+msgid "Filter search"
+msgstr ""
+
+msgid "Quick add"
+msgstr ""
+
+msgid "items"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Jobs"
+msgstr ""
+
+msgid "Omeka could not find any jobs."
+msgstr ""
+
+msgid "[not started]"
+msgstr ""
+
+msgid "[not ended]"
+msgstr ""
+
+msgid "Started"
+msgstr ""
+
+msgid "Ended"
+msgstr ""
+
+msgid "Args"
+msgstr ""
+
+msgid "[no args]"
+msgstr ""
+
+msgid "Log"
+msgstr ""
+
+msgid "view log"
+msgstr ""
+
+msgid "[no log]"
+msgstr ""
+
+msgid "Batch edit medias"
+msgstr ""
+
+msgid "Affected medias"
+msgstr ""
+
+msgid "You are editing the following %s medias:"
+msgstr ""
+
+msgid "You are editing %s medias."
+msgstr ""
+
+msgid "Select media"
+msgstr ""
+
+msgid "Delete medias"
+msgstr ""
+
+msgid "Are you sure you would like to delete the selected medias?"
+msgstr ""
+
+msgid "%s: this action will permanently delete %s medias and cannot be undone."
+msgstr ""
+
+msgid ""
+"Are you sure you would like to delete all medias on all pages of this result?"
+msgstr ""
+
+msgid "Omeka could not find any medias."
+msgstr ""
+
+msgid "Part of Item"
+msgstr ""
+
+msgid "MIME type"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "%s bytes"
+msgstr ""
+
+msgid "Edit media"
+msgstr ""
+
+msgid "Part of item"
+msgstr ""
+
+msgid "Ingester"
+msgstr ""
+
+msgid "Source"
+msgstr "Ffynhonnell"
+
+msgid "File Derivatives"
+msgstr ""
+
+msgid "original"
+msgstr ""
+
+msgid "large"
+msgstr ""
+
+msgid "medium"
+msgstr ""
+
+msgid "square"
+msgstr ""
+
+msgid "media"
+msgstr ""
+
+msgid "All modules"
+msgstr ""
+
+msgid "name not found"
+msgstr ""
+
+msgid "by %s"
+msgstr "yn ôl %s"
+
+msgid "A new version of this module is available. %s"
+msgstr ""
+
+msgid "Configure"
+msgstr "Ffurfweddu"
+
+msgid "Uninstall"
+msgstr "Dadosod"
+
+msgid "Error: invalid Module.php file"
+msgstr ""
+
+msgid "Error: invalid config/module.ini file"
+msgstr ""
+
+msgid "Error: %1$s requires Omeka S %2$s"
+msgstr ""
+
+msgid "Error: module in database but not in filesystem"
+msgstr ""
+
+msgid "Omeka could not find any modules."
+msgstr ""
+
+msgid "Submit"
+msgstr "Cyflwyno"
+
+msgid "Uninstall module"
+msgstr ""
+
+msgid "Are you sure you would like to uninstall this module?"
+msgstr ""
+
+msgid "Vocabulary"
+msgstr ""
+
+msgid "Term"
+msgstr ""
+
+msgid "Comment"
+msgstr "Sylw"
+
+msgid "New resource template"
+msgstr ""
+
+msgid "Resource templates"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Omeka could not find any resource templates."
+msgstr ""
+
+msgid "Original"
+msgstr "Gwreiddiol"
+
+msgid "Alternate"
+msgstr ""
+
+msgid "Other options"
+msgstr ""
+
+msgid "Required"
+msgstr ""
+
+msgid "Data type"
+msgstr ""
+
+msgid "Set changes"
+msgstr ""
+
+msgid "Review import"
+msgstr ""
+
+msgid "Review"
+msgstr ""
+
+msgid "Complete import"
+msgstr ""
+
+msgid "Original label"
+msgstr ""
+
+msgid "Alternate comment"
+msgstr ""
+
+msgid "Required?"
+msgstr ""
+
+msgid "Private?"
+msgstr ""
+
+msgid "Yes"
+msgstr "Ie"
+
+msgid "No"
+msgstr ""
+
+msgid "Edit property"
+msgstr ""
+
+msgid "Remove property"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Edit resource template"
+msgstr ""
+
+msgid "Global settings"
+msgstr ""
+
+msgid "New user"
+msgstr "Defnyddiwr Newydd"
+
+msgid "Users"
+msgstr "Defnyddwyr"
+
+msgid "Batch edit users"
+msgstr ""
+
+msgid "Affected users"
+msgstr ""
+
+msgid "You are editing the following %s users:"
+msgstr ""
+
+msgid "You are editing %s users (except yourself)."
+msgstr ""
+
+msgid "Add new user"
+msgstr "Ychwanegu Defnyddiwr Newydd"
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Delete users"
+msgstr ""
+
+msgid "Are you sure you would like to delete the selected users?"
+msgstr ""
+
+msgid "%s: this action will permanently delete %s users and cannot be undone."
+msgstr ""
+
+msgid ""
+"Are you sure you would like to delete all users (except yourself) on all "
+"pages of this result?"
+msgstr ""
+
+msgid ""
+"%s: this action will permanently delete %s users (except yourself) and "
+"cannot be undone."
+msgstr ""
+
+msgid "Omeka could not find any users."
+msgstr ""
+
+msgid "User information"
+msgstr ""
+
+msgid "User settings"
+msgstr ""
+
+msgid "Password"
+msgstr "Cyfrinair"
+
+msgid "API keys"
+msgstr "Allweddi API"
+
+msgid "Keys"
+msgstr "Allweddi"
+
+msgid "Add a new key"
+msgstr "Ychwanegu allwedd newydd"
+
+msgid "(inactive)"
+msgstr ""
+
+msgid "Edit user"
+msgstr "Golygu Defnyddiwr"
+
+msgid "Display name"
+msgstr ""
+
+msgid "Prefix"
+msgstr ""
+
+msgid "Classes"
+msgstr ""
+
+msgid "Properties"
+msgstr ""
+
+msgid "Vocabularies"
+msgstr ""
+
+msgid "Omeka could not find any vocabularies."
+msgstr ""
+
+msgid "Prefix:"
+msgstr ""
+
+msgid "Namespace URI:"
+msgstr ""
+
+msgid "This vocabulary has no classes."
+msgstr ""
+
+msgid "New vocabulary"
+msgstr ""
+
+msgid "This vocabulary has no properties."
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Accept changes"
+msgstr "Arbed Newidiadau"
+
+msgid "Sites"
+msgstr ""
+
+msgid "Go to the %s to start working with %s."
+msgstr ""
+
+msgid "Install Omeka S"
+msgstr ""
+
+msgid "Some installation requirements were not satisfied."
+msgstr ""
+
+msgid "Create a new password"
+msgstr "Creu cyfrinair newydd"
+
+msgid "Activate"
+msgstr "Bywiogi"
+
+msgid "Forgot password"
+msgstr "Anghofio cyfrinair"
+
+msgid "Send password reset email"
+msgstr "Danfon ebost ailosod cyfrinair"
+
+msgid "Login"
+msgstr "Mewngofnodi"
+
+msgid "Forgot password?"
+msgstr "Anghofio cyfrinair?"
+
+msgid "Site under maintenance"
+msgstr ""
+
+msgid ""
+"This site is down for maintenance. Please contact the site administrator fo"
+msgstr ""
+
+msgid "Update database"
+msgstr "Uwchraddio'r Gronfa ddata"
+
+msgid ""
+"There was a recent software upgrade and the database needs to be updated. Th"
+msgstr ""
+
+msgid "New page"
+msgstr ""
+
+msgid "Pages"
+msgstr "Tudalennau"
+
+msgid "Theme"
+msgstr "Thema"
+
+msgid "Item pool"
+msgstr ""
+
+msgid "New site"
+msgstr ""
+
+msgid "URL slug"
+msgstr ""
+
+msgid "Add new site"
+msgstr ""
+
+msgid "Omeka could not find any sites."
+msgstr ""
+
+msgid "Navigation"
+msgstr "Llywio"
+
+msgid "Add a link to a site page"
+msgstr ""
+
+msgid "Add a custom link"
+msgstr ""
+
+msgid "Filter pages"
+msgstr ""
+
+msgid "There are no available pages."
+msgstr ""
+
+msgid "Restore item set"
+msgstr ""
+
+msgid "There are currently %s items in this site’s pool."
+msgstr ""
+
+msgid "No item sets are assigned to this site."
+msgstr ""
+
+msgid "Viewer"
+msgstr "Syllwr"
+
+msgid "Editor"
+msgstr "Golygydd"
+
+msgid "View"
+msgstr "Gweld"
+
+msgid "Back to site list"
+msgstr ""
+
+msgid "Summary"
+msgstr ""
+
+msgid "Invalid theme.ini file"
+msgstr ""
+
+msgid "This theme requires Omeka S %s"
+msgstr ""
+
+msgid "The current theme has no configuration options."
+msgstr ""
+
+msgid "Current theme"
+msgstr "Thema Cyfredol"
+
+msgid "Edit theme settings"
+msgstr ""
+
+msgid "A new version of this theme is available. %s"
+msgstr ""
+
+msgid "Error: this theme is invalid."
+msgstr ""
+
+msgid "ID: %s"
+msgstr ""
+
+msgid "Status: %s"
+msgstr ""
+
+msgid ""
+"Please contact the Omeka S administrator. This site will not be publicly "
+"available until the problem is resolved or you select another theme below."
+msgstr ""
+
+msgid "Restore"
+msgstr ""
+
+msgid "User permissions"
+msgstr ""
+
+msgid "User to be removed"
+msgstr ""
+
+msgid "This site has no users. Add users using the interface to the right."
+msgstr ""
+
+msgid "Click on a user to add them to the site."
+msgstr ""
+
+msgid "Change item"
+msgstr ""
+
+msgid "No item selected."
+msgstr ""
+
+msgid "Add new block"
+msgstr ""
+
+msgid "Caption"
+msgstr ""
+
+msgid "Apply changes"
+msgstr ""
+
+msgid "Add new page"
+msgstr ""
+
+msgid "Slug"
+msgstr ""
+
+msgid "View public page"
+msgstr ""
+
+msgid "Delete page"
+msgstr "Dileu tudalen"
+
+msgid "This site has no pages."
+msgstr ""
+
+msgid "Advanced item set Search"
+msgstr ""
+
+msgid "Advanced item search"
+msgstr ""
+
+msgid "Item"
+msgstr "Eitem"
+
+msgid "Set visibility"
+msgstr "Gosod gwelededd"
+
+msgid "Not public"
+msgstr "Ddim yn gyhoeddus"
+
+msgid "[No change]"
+msgstr "[Dim newid]"
+
+msgid "Set openness"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Not open"
+msgstr ""
+
+msgid "Select a template"
+msgstr ""
+
+msgid "Set template"
+msgstr ""
+
+msgid "[Unset template]"
+msgstr ""
+
+msgid "Select a class"
+msgstr ""
+
+msgid "Set class"
+msgstr ""
+
+msgid "[Unset class]"
+msgstr ""
+
+msgid "Select item sets"
+msgstr ""
+
+msgid "Add to item sets"
+msgstr ""
+
+msgid "Remove from item sets"
+msgstr ""
+
+msgid "Clear language"
+msgstr ""
+
+msgid "Select properties"
+msgstr ""
+
+msgid "Clear property values"
+msgstr ""
+
+msgid "Confirm"
+msgstr "Cadarnhau"
+
+msgid "three- or six-digit hexadecimal color, or \"transparent\""
+msgstr ""
+
+msgid "Invalid color format"
+msgstr ""
+
+msgid "You must verify that you are human by completing the CAPTCHA."
+msgstr ""
+
+msgid "Could not verify that you are a human."
+msgstr ""
+
+msgid "Suggested class"
+msgstr ""
+
+msgid "General"
+msgstr "Cyffredinol"
+
+msgid "Administrator email"
+msgstr "Ebost Gweinyddwr"
+
+msgid "Installation title"
+msgstr ""
+
+msgid "Time zone"
+msgstr ""
+
+msgid "Results per page"
+msgstr "Canlyniadau fesul Tudalen"
+
+msgid "The maximum number of results per page on browse pages."
+msgstr ""
+
+msgid "Property label information"
+msgstr ""
+
+msgid "The additional information that accompanies labels on resource pages."
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Show Vocabulary"
+msgstr ""
+
+msgid "Show Term"
+msgstr ""
+
+msgid "Default site"
+msgstr ""
+
+msgid ""
+"Select which site should appear when users go to the front page of the "
+"installation."
+msgstr ""
+
+msgid "No default (show index of sites)"
+msgstr ""
+
+msgid "Locale"
+msgstr ""
+
+msgid "Global locale/language code for all interfaces."
+msgstr ""
+
+msgid "Enable version notifications"
+msgstr ""
+
+msgid ""
+"Enable notifications when a new version of Omeka S, modules, or themes are "
+"available."
+msgstr ""
+
+msgid "Disable JSON-LD embed"
+msgstr ""
+
+msgid ""
+"By default, Omeka embeds JSON-LD in resource browse and show pages for the "
+"purpose of machine-readable metadata discovery. Check this to disable "
+"embedding."
+msgstr ""
+
+msgid "Security"
+msgstr "Diogelwch"
+
+msgid "Use HTMLPurifier"
+msgstr ""
+
+msgid "Clean up user-entered HTML."
+msgstr ""
+
+msgid "Disable file validation"
+msgstr ""
+
+msgid "Check this to disable file media type and extension validation."
+msgstr ""
+
+msgid "Allowed media types"
+msgstr ""
+
+msgid "A comma-separated list of allowed media types for file uploads."
+msgstr ""
+
+msgid "Allowed file extensions"
+msgstr ""
+
+msgid "A comma-separated list of allowed file extensions for file uploads."
+msgstr ""
+
+msgid "reCAPTCHA site key"
+msgstr ""
+
+msgid "reCAPTCHA secret key"
+msgstr ""
+
+msgid "Vocabulary file"
+msgstr ""
+
+msgid "Choose a RDF vocabulary file. You must choose a file or enter a URL."
+msgstr ""
+
+msgid "Vocabulary URL"
+msgstr ""
+
+msgid "Enter a RDF vocabulary URL. You must enter a URL or choose a file."
+msgstr ""
+
+msgid "File format"
+msgstr ""
+
+msgid "[Autodetect]"
+msgstr ""
+
+msgid "JSON-LD (.jsonld)"
+msgstr ""
+
+msgid "N-Triples (.nt)"
+msgstr ""
+
+msgid "Notation3 (.n3)"
+msgstr ""
+
+msgid "RDF/XML (.rdf)"
+msgstr ""
+
+msgid "Turtle (.ttl)"
+msgstr ""
+
+msgid ""
+"A concise vocabulary identifier, used as a shorthand proxy for the namespace "
+"URI."
+msgstr ""
+
+msgid "Namespace URI"
+msgstr ""
+
+msgid ""
+"The unique namespace URI used by the vocabulary to identify local member "
+"classes and properties."
+msgstr ""
+
+msgid "A human-readable title of the vocabulary."
+msgstr ""
+
+msgid "A human-readable description of the vocabulary."
+msgstr ""
+
+msgid "Add to navigation"
+msgstr ""
+
+msgid "Select role…"
+msgstr ""
+
+msgid "Default resource template"
+msgstr ""
+
+msgid "Current password"
+msgstr "Cyfrinair cyfredol"
+
+msgid "New password"
+msgstr "Cyfrinair newydd"
+
+msgid "Confirm new password"
+msgstr "Cadarnhau cyfrinair newydd"
+
+msgid "New key label"
+msgstr "Label allwedd newydd"
+
+msgid "Password confirmation must match new password"
+msgstr "Rhaid i'r ddau gyfrinair gydweddu"
+
+msgid "Invalid or missing CSRF token"
+msgstr ""
+
+msgid "Set role"
+msgstr ""
+
+msgid "Set activity"
+msgstr ""
+
+msgid "Select sites…"
+msgstr ""
+
+msgid "Remove from site permission"
+msgstr ""
+
+msgid "[All sites]"
+msgstr ""
+
+msgid "Add to site permission"
+msgstr ""
+
+msgid "Select permission…"
+msgstr ""
+
+msgid "Add to site permission as"
+msgstr ""
+
+msgid "Install"
+msgstr "Gosod"
+
+msgid "Deactivate"
+msgstr "Diffodd"
+
+msgid "Upgrade"
+msgstr "Uwchraddio"
+
+msgid "Create the first user"
+msgstr ""
+
+msgid "Settings"
+msgstr "Gosodiadau"
+
+msgid "Confirm email"
+msgstr "Cadarnhau ebost"
+
+msgid "Confirm password"
+msgstr "Cadarnhau cyfrinair"
+
+msgid "The passwords did not match"
+msgstr "Nid oedd y cyfrineiriau yn cyfateb"
+
+msgid "The emails did not match"
+msgstr "Nid oedd yr ebyst yn cyfateb"
+
+msgid "Attachment link type"
+msgstr ""
+
+msgid "Item page"
+msgstr ""
+
+msgid "Media page"
+msgstr ""
+
+msgid "Direct link to file"
+msgstr ""
+
+msgid "Embed media on item pages"
+msgstr ""
+
+msgid ""
+"Show pagination that helps users follow a linear narrative through a site."
+msgstr ""
+
+msgid "Show user bar on public views"
+msgstr ""
+
+msgid "Never"
+msgstr ""
+
+msgid "When logged in"
+msgstr ""
+
+msgid "Always"
+msgstr ""
+
+msgid ""
+"Locale/language code for this site. Leave blank to use the global locale "
+"setting."
+msgstr ""
+
+msgid "Restrict browse to attached items"
+msgstr ""
+
+msgid ""
+"The maximum number of results per page on browse pages. Leave blank to use "
+"the global setting."
+msgstr ""
+
+msgid "Use global setting"
+msgstr ""
+
+msgid "Browse heading property"
+msgstr ""
+
+msgid ""
+"Use this property for the heading of each resource on a browse page. Default "
+"is \"Dublin Core: Title\"."
+msgstr ""
+
+msgid "Select a property"
+msgstr ""
+
+msgid "Browse body property"
+msgstr ""
+
+msgid ""
+"Use this property for the body of each resource on a browse page. Default is "
+"\"Dublin Core: Description\"."
+msgstr ""
+
+msgid "Templates"
+msgstr ""
+
+msgid "Select which templates to apply to the advanced search form."
+msgstr ""
+
+msgid "Select templates"
+msgstr ""
+
+msgid "Restrict search results to resources of the selected templates."
+msgstr ""
+
+msgid "Resource template file"
+msgstr ""
+
+msgid "Update vocabulary"
+msgstr ""
+
+msgid ""
+"Update this vocabulary to a newer version. You will be able to review the "
+"changes before you accept. Accepts the following formats: RDF/XML, RDF/JSON, "
+"N-Triples, and Turtle."
+msgstr ""
+
+msgid "Resource template"
+msgstr "Templed adnodd"
+
+msgid "A pre-defined template for resource creation."
+msgstr ""
+
+msgid ""
+"A type for the resource. Different types have different default properties "
+"attached to them."
+msgstr ""
+
+msgid "Global Administrator"
+msgstr ""
+
+msgid "Site Administrator"
+msgstr ""
+
+msgid "Reviewer"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Researcher"
+msgstr ""
+
+msgid "Select property…"
+msgstr ""
+
+msgid "item title"
+msgstr ""
+
+msgid "media title"
+msgstr ""
+
+msgid "no title"
+msgstr ""
+
+msgid "Select template…"
+msgstr ""
+
+msgid "Select site…"
+msgstr ""
+
+msgid "Select item set…"
+msgstr ""
+
+msgid "Select user…"
+msgstr ""
+
+msgid "Select class…"
+msgstr ""
+
+msgid "Item Set"
+msgstr ""
+
+msgid "Resource"
+msgstr ""
+
+msgid "A value resource cannot be Media."
+msgstr ""
+
+msgid "starting"
+msgstr ""
+
+msgid "stopping"
+msgstr ""
+
+msgid "in_progress"
+msgstr ""
+
+msgid "completed"
+msgstr ""
+
+msgid "stopped"
+msgstr ""
+
+msgid "error"
+msgstr ""
+
+msgid "List of sites"
+msgstr ""
+
+msgid "Alphabetical"
+msgstr ""
+
+msgid "Oldest first"
+msgstr ""
+
+msgid "Newest first"
+msgstr ""
+
+msgid "Max number of sites"
+msgstr ""
+
+msgid "An empty value means no limit."
+msgstr ""
+
+msgid "Unlimited"
+msgstr ""
+
+msgid "Pagination"
+msgstr ""
+
+msgid "Show pagination (only if a limit is set)"
+msgstr ""
+
+msgid "Show summaries"
+msgstr ""
+
+msgid "Page title"
+msgstr ""
+
+msgid "Table of contents"
+msgstr ""
+
+msgid "Item with metadata"
+msgstr ""
+
+msgid "Thumbnail alignment"
+msgstr ""
+
+msgid "Unknown [%s]"
+msgstr ""
+
+msgid "Line break"
+msgstr ""
+
+msgid "Transparent"
+msgstr ""
+
+msgid "Opaque"
+msgstr ""
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Browse preview"
+msgstr ""
+
+msgid "Browse all"
+msgstr "Pori'r cyfan"
+
+msgid "Display resources using this search query"
+msgstr "Dangos adnoddau drwy ddefnyddio'r chwiliad ymholi hwn"
+
+msgid "Limit"
+msgstr ""
+
+msgid "Maximum number of resources to display in the preview."
+msgstr ""
+
+msgid "Preview title"
+msgstr "Rhagolwg teitl"
+
+msgid "Heading above resource list, if any."
+msgstr ""
+
+msgid "Link text"
+msgstr ""
+
+msgid "Text for link to full browse view, if any."
+msgstr ""
+
+msgid "Item showcase"
+msgstr ""
+
+msgid "Browse item sets"
+msgstr ""
+
+msgid "Custom URL"
+msgstr ""
+
+msgid "Missing thumbnail configuration."
+msgstr ""
+
+msgid "Missing thumbnail types configuration."
+msgstr ""
+
+msgid "Missing the large, medium, or square thumbnail type configuration."
+msgstr ""
+
+msgid "Missing constraint for a thumbnail type configuration."
+msgstr ""
+
+msgid "Missing thumbnail fallbacks configuration."
+msgstr ""
+
+msgid "Missing default thumbnail fallback configuration."
+msgstr ""
+
+msgid "Missing thumbnail fallback configuration."
+msgstr ""
+
+msgid "Invalid thumbnail fallback configuration."
+msgstr ""
+
+msgid "Error validating \"%s\". Cannot store files with the media type \"%s\"."
+msgstr ""
+
+msgid ""
+"Error validating \"%s\". Cannot store files with the resolved extension \"%s"
+"\"."
+msgstr ""
+
+msgid "Error downloading %s: %s"
+msgstr ""
+
+msgid "Error downloading %s: %s %s"
+msgstr ""
+
+msgid "The local name cannot be empty."
+msgstr ""
+
+msgid "The label cannot be empty."
+msgstr ""
+
+msgid "The local name \"%s\" is already taken."
+msgstr ""
+
+msgid "A vocabulary must be set."
+msgstr ""
+
+msgid "Classes must be an array"
+msgstr ""
+
+msgid "Properties must be an array"
+msgstr ""
+
+msgid "The namespace URI cannot be empty."
+msgstr ""
+
+msgid "The namespace URI \"%s\" is already taken."
+msgstr ""
+
+msgid "The prefix cannot be empty."
+msgstr ""
+
+msgid "The prefix \"%s\" is already taken."
+msgstr ""
+
+msgid "The prefix \"%s\" is reserved."
+msgstr ""
+
+msgid "A site must have a title."
+msgstr ""
+
+msgid "The slug cannot be empty."
+msgstr ""
+
+msgid "A slug can only contain letters, numbers, underscores, and hyphens."
+msgstr ""
+
+msgid "The slug \"%s\" is already taken."
+msgstr ""
+
+msgid "A site must have a theme."
+msgstr ""
+
+msgid "A site must have item pool data."
+msgstr ""
+
+msgid "Invalid navigation: navigation must be an array"
+msgstr ""
+
+msgid "Invalid navigation: link missing type"
+msgstr ""
+
+msgid "Invalid navigation: link missing data"
+msgstr ""
+
+msgid "Invalid navigation: invalid link data"
+msgstr ""
+
+msgid "Invalid navigation: page links must be unique"
+msgstr ""
+
+msgid "Invalid navigation: links must be an array"
+msgstr ""
+
+msgid "The name cannot be empty."
+msgstr "Nid yw'r enw yn gallu bod yn wag."
+
+msgid "The email %s is already taken."
+msgstr "Mae'r cyfeiriad ebost %s wedi'i gymryd."
+
+msgid "Users must have a role."
+msgstr ""
+
+msgid "The current user #%d was removed from the batch process."
+msgstr ""
+
+msgid "Attempting to add duplicate property with ID %s"
+msgstr ""
+
+msgid "The label is already taken."
+msgstr ""
+
+msgid "Media must set an ingester."
+msgstr ""
+
+msgid "Media must set a valid ingester."
+msgstr ""
+
+msgid "Media must belong to an item."
+msgstr ""
+
+msgid "The \"%s\" resource template requires a \"%s\" value"
+msgstr ""
+
+msgid "Item sets must be an array"
+msgstr ""
+
+msgid "Media must be an array"
+msgstr ""
+
+msgid "A page must belong to a site."
+msgstr ""
+
+msgid "A page must have a title."
+msgstr ""
+
+msgid "All blocks must have a layout."
+msgstr ""
+
+msgid "Block data must not be a scalar value."
+msgstr ""
+
+msgid "Starting"
+msgstr ""
+
+msgid "Stopping"
+msgstr ""
+
+msgid "In Progress"
+msgstr "Ar waith"
+
+msgid "Completed"
+msgstr "Cwblhawyd"
+
+msgid "Stopped"
+msgstr ""
+
+msgid "Migration successful"
+msgstr ""
+
+msgid "Site successfully created"
+msgstr ""
+
+msgid "Site successfully updated"
+msgstr ""
+
+msgid "Settings successfully updated"
+msgstr ""
+
+msgid "Page successfully created"
+msgstr ""
+
+msgid "Navigation successfully updated"
+msgstr ""
+
+msgid "Site resources successfully updated"
+msgstr ""
+
+msgid "User permissions successfully updated"
+msgstr ""
+
+msgid "Site theme successfully updated"
+msgstr ""
+
+msgid "Theme settings successfully updated"
+msgstr ""
+
+msgid "Site successfully deleted"
+msgstr ""
+
+msgid "site"
+msgstr ""
+
+msgid "Page successfully updated"
+msgstr ""
+
+msgid "page"
+msgstr "tudalen"
+
+msgid "Page successfully deleted"
+msgstr ""
+
+msgid "Installation successful. Please log in."
+msgstr ""
+
+msgid "There were errors during installation."
+msgstr ""
+
+msgid "resource template"
+msgstr ""
+
+msgid "Resource template successfully deleted"
+msgstr ""
+
+msgid "Resource template could not be deleted"
+msgstr ""
+
+msgid "Resource template successfully updated"
+msgstr ""
+
+msgid "Resource template successfully created. %s"
+msgstr ""
+
+msgid "Item set successfully created. %s"
+msgstr ""
+
+msgid "Item set successfully updated"
+msgstr ""
+
+msgid "Confirm Delete"
+msgstr "Cadarnhau Dileu"
+
+msgid "item set"
+msgstr ""
+
+msgid "Item set successfully deleted"
+msgstr ""
+
+msgid "You must select at least one item set to batch delete."
+msgstr ""
+
+msgid "Item sets successfully deleted"
+msgstr ""
+
+msgid "Deleting item sets. This may take a while."
+msgstr ""
+
+msgid "You must select at least one item set to batch edit."
+msgstr ""
+
+msgid "Item sets successfully edited"
+msgstr ""
+
+msgid "Editing item sets. This may take a while."
+msgstr ""
+
+msgid "item"
+msgstr ""
+
+msgid "Item successfully deleted"
+msgstr ""
+
+msgid "You must select at least one item to batch delete."
+msgstr ""
+
+msgid "Items successfully deleted"
+msgstr ""
+
+msgid "Deleting items. This may take a while."
+msgstr ""
+
+msgid "Item successfully created. %s"
+msgstr ""
+
+msgid "Item successfully updated"
+msgstr ""
+
+msgid "You must select at least one item to batch edit."
+msgstr ""
+
+msgid "Items successfully edited"
+msgstr ""
+
+msgid "Editing items. This may take a while."
+msgstr ""
+
+msgid "vocabulary"
+msgstr ""
+
+msgid "Vocabulary successfully imported. %s"
+msgstr ""
+
+msgid "Please review these changes before you accept them."
+msgstr ""
+
+msgid "Vocabulary successfully updated"
+msgstr ""
+
+msgid "Changes to the vocabulary successfully made"
+msgstr ""
+
+msgid "Vocabulary successfully deleted"
+msgstr ""
+
+msgid "Media successfully updated"
+msgstr ""
+
+msgid "Media successfully deleted"
+msgstr ""
+
+msgid "You must select at least one media to batch delete."
+msgstr ""
+
+msgid "Medias successfully deleted"
+msgstr ""
+
+msgid "Deleting medias. This may take a while."
+msgstr ""
+
+msgid "You must select at least one media to batch edit."
+msgstr ""
+
+msgid "Medias successfully edited"
+msgstr ""
+
+msgid "Editing medias. This may take a while."
+msgstr ""
+
+msgid "The module was successfully installed"
+msgstr ""
+
+msgid "Confirm uninstall"
+msgstr ""
+
+msgid "The module was successfully uninstalled"
+msgstr ""
+
+msgid "The module was successfully activated"
+msgstr ""
+
+msgid "The module was successfully deactivated"
+msgstr ""
+
+msgid "The module was successfully upgraded"
+msgstr ""
+
+msgid "The module was successfully configured"
+msgstr ""
+
+msgid "There was a problem during configuration"
+msgstr ""
+
+msgid "Attempt Stop"
+msgstr ""
+
+msgid "Attempting to stop the job."
+msgstr ""
+
+msgid "The job could not be stopped."
+msgstr ""
+
+msgid "User successfully created. %s"
+msgstr ""
+
+msgid "User successfully updated"
+msgstr ""
+
+msgid "The current password entered was invalid"
+msgstr "Nid oedd y cyfrinair yma yn ddilys"
+
+msgid "Password successfully changed"
+msgstr "Newidiwyd y cyfrinair yn llwyddiannus"
+
+msgid "Key(s) successfully deleted"
+msgstr ""
+
+msgid ""
+"API key successfully created.<br><br>Here is your key ID and credential for "
+"access to the API. WARNING: \"key_credential\" will be unretrievable after "
+"you navigate away from this page.<br><br>key_identity: <code>%s</"
+"code><br>key_credential: <code>%s</code>"
+msgstr ""
+
+msgid "user"
+msgstr ""
+
+msgid "User successfully deleted"
+msgstr ""
+
+msgid "You must select at least one user to batch delete."
+msgstr ""
+
+msgid "You can’t delete yourself."
+msgstr ""
+
+msgid "Users successfully deleted"
+msgstr ""
+
+msgid "Deleting users. This may take a while."
+msgstr ""
+
+msgid "You must select at least one user to batch edit."
+msgstr ""
+
+msgid "For security reasons, you can’t batch edit yourself."
+msgstr ""
+
+msgid "Users successfully edited"
+msgstr ""
+
+msgid "Editing users. This may take a while."
+msgstr ""
+
+msgid "Successfully logged in"
+msgstr "Wedi mewngofnodi yn llwyddiannus"
+
+msgid "Email or password is invalid"
+msgstr "Nid yw'r ebost neu'r cyfrinair yn ddilys."
+
+msgid "Successfully logged out"
+msgstr "Wedi mewngofnodi yn llwyddiannus"
+
+msgid "Invalid password creation key."
+msgstr ""
+
+msgid "Password creation key expired."
+msgstr ""
+
+msgid "Successfully created your password. Please log in."
+msgstr "Wedi creu cyfrinair.  Mewngofnodwch os gwelwch yn dda."
+
+msgid "Password creation unsuccessful"
+msgstr "Aflwyddiannus yn creu cyfrinair"
+
+msgid "Check your email for instructions on how to reset your password"
+msgstr "Ewch i'ch ebost am gyfarwyddiadau ar sut i ailosod eich cyfrinair"
+
+msgid "Activation unsuccessful"
+msgstr ""
+
+msgid "Upload file"
+msgstr ""
+
+msgid "YouTube"
+msgstr ""
+
+msgid "Video URL"
+msgstr ""
+
+msgid "URL for the video to embed."
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid ""
+"Begin playing the video at the given number of seconds from the start of the "
+"video."
+msgstr ""
+
+msgid "End"
+msgstr ""
+
+msgid ""
+"End playing the video at the given number of seconds from the start of the "
+"video."
+msgstr ""
+
+msgid "IIIF image"
+msgstr ""
+
+msgid "IIIF image URL"
+msgstr ""
+
+msgid "URL for the image to embed."
+msgstr ""
+
+msgid "HTML or plain text."
+msgstr ""
+
+msgid "A URL to the media."
+msgstr ""
+
+msgid "oEmbed"
+msgstr ""
+
+msgid "oEmbed URL"
+msgstr ""
+
+msgid "URL for the media to embed."
+msgstr ""
+
+msgid "Something went wrong"
+msgstr ""
+
+msgid "You have unsaved changes."
+msgstr ""
+
+msgid "Close icon set"
+msgstr ""
+
+msgid "Open icon set"
+msgstr ""
+
+msgid "Failed loading resource template from API"
+msgstr ""
+
+msgid "Restore property"
+msgstr ""
+
+msgid "Please enter a valid language tag"
+msgstr ""
+
+msgid "Site info"
+msgstr ""
+
+msgid "Filter by owner"
+msgstr ""
+
+msgid "Filter by class"
+msgstr ""
+
+msgid "Filter by item set"
+msgstr ""
+
+msgid "[Any Property]"
+msgstr ""
+
+msgid "Dublin Core"
+msgstr ""
+
+msgid "Basic resource metadata (DCMI Metadata Terms)"
+msgstr ""
+
+msgid "Agent"
+msgstr ""
+
+msgid "A resource that acts or has the power to act."
+msgstr ""
+
+msgid "Agent Class"
+msgstr ""
+
+msgid "A group of agents."
+msgstr ""
+
+msgid "Bibliographic Resource"
+msgstr ""
+
+msgid "A book, article, or other documentary resource."
+msgstr ""
+
+msgid "File Format"
+msgstr ""
+
+msgid "A digital resource format."
+msgstr ""
+
+msgid "Frequency"
+msgstr ""
+
+msgid "A rate at which something recurs."
+msgstr ""
+
+msgid "Jurisdiction"
+msgstr ""
+
+msgid "The extent or range of judicial, law enforcement, or other authority."
+msgstr ""
+
+msgid "License Document"
+msgstr ""
+
+msgid ""
+"A legal document giving official permission to do something with a Resource."
+msgstr ""
+
+msgid "Linguistic System"
+msgstr ""
+
+msgid ""
+"A system of signs, symbols, sounds, gestures, or rules used in communication."
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "A spatial region or named place."
+msgstr ""
+
+msgid "Location, Period, or Jurisdiction"
+msgstr ""
+
+msgid "A location, period of time, or jurisdiction."
+msgstr ""
+
+msgid "Media Type"
+msgstr ""
+
+msgid "A file format or physical medium."
+msgstr ""
+
+msgid "Media Type or Extent"
+msgstr ""
+
+msgid "A media type or extent."
+msgstr ""
+
+msgid "Method of Instruction"
+msgstr ""
+
+msgid "A process that is used to engender knowledge, attitudes, and skills."
+msgstr ""
+
+msgid "Method of Accrual"
+msgstr ""
+
+msgid "A method by which resources are added to a collection."
+msgstr ""
+
+msgid "Period of Time"
+msgstr ""
+
+msgid ""
+"An interval of time that is named or defined by its start and end dates."
+msgstr ""
+
+msgid "Physical Medium"
+msgstr ""
+
+msgid "A physical material or carrier."
+msgstr ""
+
+msgid "Physical Resource"
+msgstr ""
+
+msgid "A material thing."
+msgstr ""
+
+msgid "Policy"
+msgstr ""
+
+msgid ""
+"A plan or course of action by an authority, intended to influence and "
+"determine decisions, actions, and other matters."
+msgstr ""
+
+msgid "Provenance Statement"
+msgstr ""
+
+msgid ""
+"A statement of any changes in ownership and custody of a resource since its "
+"creation that are significant for its authenticity, integrity, and "
+"interpretation."
+msgstr ""
+
+msgid "Rights Statement"
+msgstr ""
+
+msgid ""
+"A statement about the intellectual property rights (IPR) held in or over a "
+"Resource, a legal document giving official permission to do something with a "
+"resource, or a statement about access rights."
+msgstr ""
+
+msgid "Size or Duration"
+msgstr ""
+
+msgid "A dimension or extent, or a time taken to play or execute."
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid ""
+"A basis for comparison; a reference point against which other things can be "
+"evaluated."
+msgstr ""
+
+msgid "A name given to the resource."
+msgstr ""
+
+msgid "Creator"
+msgstr "Crewyd gan"
+
+msgid "An entity primarily responsible for making the resource."
+msgstr ""
+
+msgid "Subject"
+msgstr "Pwnc"
+
+msgid "The topic of the resource."
+msgstr ""
+
+msgid "Description"
+msgstr "Disgrifiad"
+
+msgid "An account of the resource."
+msgstr ""
+
+msgid "Publisher"
+msgstr "Cyhoeddwr"
+
+msgid "An entity responsible for making the resource available."
+msgstr ""
+
+msgid "Contributor"
+msgstr "Cyfrannwr"
+
+msgid "An entity responsible for making contributions to the resource."
+msgstr ""
+
+msgid "Date"
+msgstr "Dyddiad"
+
+msgid ""
+"A point or period of time associated with an event in the lifecycle of the "
+"resource."
+msgstr ""
+
+msgid "The nature or genre of the resource."
+msgstr ""
+
+msgid "Format"
+msgstr "Fformat"
+
+msgid "The file format, physical medium, or dimensions of the resource."
+msgstr ""
+
+msgid "An unambiguous reference to the resource within a given context."
+msgstr ""
+
+msgid "A related resource from which the described resource is derived."
+msgstr ""
+
+msgid "A language of the resource."
+msgstr ""
+
+msgid "Relation"
+msgstr "Perthynas"
+
+msgid "A related resource."
+msgstr ""
+
+msgid "Coverage"
+msgstr "Ymdriniaeth"
+
+msgid ""
+"The spatial or temporal topic of the resource, the spatial applicability of "
+"the resource, or the jurisdiction under which the resource is relevant."
+msgstr ""
+
+msgid "Rights"
+msgstr "Hawliau"
+
+msgid "Information about rights held in and over the resource."
+msgstr ""
+
+msgid "Audience"
+msgstr ""
+
+msgid "A class of entity for whom the resource is intended or useful."
+msgstr ""
+
+msgid "Alternative Title"
+msgstr ""
+
+msgid "An alternative name for the resource."
+msgstr ""
+
+msgid "Table Of Contents"
+msgstr ""
+
+msgid "A list of subunits of the resource."
+msgstr ""
+
+msgid "Abstract"
+msgstr ""
+
+msgid "A summary of the resource."
+msgstr ""
+
+msgid "Date Created"
+msgstr ""
+
+msgid "Date of creation of the resource."
+msgstr ""
+
+msgid "Date Valid"
+msgstr ""
+
+msgid "Date (often a range) of validity of a resource."
+msgstr ""
+
+msgid "Date Available"
+msgstr ""
+
+msgid "Date (often a range) that the resource became or will become available."
+msgstr ""
+
+msgid "Date Issued"
+msgstr ""
+
+msgid "Date of formal issuance (e.g., publication) of the resource."
+msgstr ""
+
+msgid "Date Modified"
+msgstr "Dyddiad Addaswyd"
+
+msgid "Date on which the resource was changed."
+msgstr ""
+
+msgid "Extent"
+msgstr ""
+
+msgid "The size or duration of the resource."
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "The material or physical carrier of the resource."
+msgstr ""
+
+msgid "Is Version Of"
+msgstr ""
+
+msgid ""
+"A related resource of which the described resource is a version, edition, or "
+"adaptation."
+msgstr ""
+
+msgid "Has Version"
+msgstr ""
+
+msgid ""
+"A related resource that is a version, edition, or adaptation of the "
+"described resource."
+msgstr ""
+
+msgid "Is Replaced By"
+msgstr ""
+
+msgid ""
+"A related resource that supplants, displaces, or supersedes the described "
+"resource."
+msgstr ""
+
+msgid "Replaces"
+msgstr ""
+
+msgid ""
+"A related resource that is supplanted, displaced, or superseded by the "
+"described resource."
+msgstr ""
+
+msgid "Is Required By"
+msgstr ""
+
+msgid ""
+"A related resource that requires the described resource to support its "
+"function, delivery, or coherence."
+msgstr ""
+
+msgid "Requires"
+msgstr ""
+
+msgid ""
+"A related resource that is required by the described resource to support its "
+"function, delivery, or coherence."
+msgstr ""
+
+msgid "Is Part Of"
+msgstr ""
+
+msgid ""
+"A related resource in which the described resource is physically or "
+"logically included."
+msgstr ""
+
+msgid "Has Part"
+msgstr ""
+
+msgid ""
+"A related resource that is included either physically or logically in the "
+"described resource."
+msgstr ""
+
+msgid "Is Referenced By"
+msgstr ""
+
+msgid ""
+"A related resource that references, cites, or otherwise points to the "
+"described resource."
+msgstr ""
+
+msgid "References"
+msgstr ""
+
+msgid ""
+"A related resource that is referenced, cited, or otherwise pointed to by the "
+"described resource."
+msgstr ""
+
+msgid "Is Format Of"
+msgstr ""
+
+msgid ""
+"A related resource that is substantially the same as the described resource, "
+"but in another format."
+msgstr ""
+
+msgid "Has Format"
+msgstr ""
+
+msgid ""
+"A related resource that is substantially the same as the pre-existing "
+"described resource, but in another format."
+msgstr ""
+
+msgid "Conforms To"
+msgstr ""
+
+msgid "An established standard to which the described resource conforms."
+msgstr ""
+
+msgid "Spatial Coverage"
+msgstr ""
+
+msgid "Spatial characteristics of the resource."
+msgstr ""
+
+msgid "Temporal Coverage"
+msgstr ""
+
+msgid "Temporal characteristics of the resource."
+msgstr ""
+
+msgid "Mediator"
+msgstr ""
+
+msgid ""
+"An entity that mediates access to the resource and for whom the resource is "
+"intended or useful."
+msgstr ""
+
+msgid "Date Accepted"
+msgstr ""
+
+msgid "Date of acceptance of the resource."
+msgstr ""
+
+msgid "Date Copyrighted"
+msgstr ""
+
+msgid "Date of copyright."
+msgstr ""
+
+msgid "Date Submitted"
+msgstr ""
+
+msgid "Date of submission of the resource."
+msgstr ""
+
+msgid "Audience Education Level"
+msgstr ""
+
+msgid ""
+"A class of entity, defined in terms of progression through an educational or "
+"training context, for which the described resource is intended."
+msgstr ""
+
+msgid "Access Rights"
+msgstr ""
+
+msgid ""
+"Information about who can access the resource or an indication of its "
+"security status."
+msgstr ""
+
+msgid "Bibliographic Citation"
+msgstr "Cyfeiriad Llyfryddol"
+
+msgid "A bibliographic reference for the resource."
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+msgid ""
+"A legal document giving official permission to do something with the "
+"resource."
+msgstr ""
+
+msgid "Rights Holder"
+msgstr ""
+
+msgid "A person or organization owning or managing rights over the resource."
+msgstr ""
+
+msgid "Provenance"
+msgstr ""
+
+msgid ""
+"A statement of any changes in ownership and custody of the resource since "
+"its creation that are significant for its authenticity, integrity, and "
+"interpretation."
+msgstr ""
+
+msgid "Instructional Method"
+msgstr ""
+
+msgid ""
+"A process, used to engender knowledge, attitudes and skills, that the "
+"described resource is designed to support."
+msgstr ""
+
+msgid "Accrual Method"
+msgstr ""
+
+msgid "The method by which items are added to a collection."
+msgstr ""
+
+msgid "Accrual Periodicity"
+msgstr ""
+
+msgid "The frequency with which items are added to a collection."
+msgstr ""
+
+msgid "Accrual Policy"
+msgstr ""
+
+msgid "The policy governing the addition of items to a collection."
+msgstr ""
+
+msgid "Dublin Core Type"
+msgstr ""
+
+msgid "Basic resource types (DCMI Type Vocabulary)"
+msgstr ""
+
+msgid "Collection"
+msgstr "Casgliad"
+
+msgid "An aggregation of resources."
+msgstr ""
+
+msgid "Dataset"
+msgstr ""
+
+msgid "Data encoded in a defined structure."
+msgstr ""
+
+msgid "Event"
+msgstr ""
+
+msgid "A non-persistent, time-based occurrence."
+msgstr ""
+
+msgid "Image"
+msgstr "Delwedd"
+
+msgid "A visual representation other than text."
+msgstr ""
+
+msgid "Interactive Resource"
+msgstr ""
+
+msgid ""
+"A resource requiring interaction from the user to be understood, executed, "
+"or experienced."
+msgstr ""
+
+msgid "Service"
+msgstr ""
+
+msgid "A system that provides one or more functions."
+msgstr ""
+
+msgid "Software"
+msgstr ""
+
+msgid "A computer program in source or compiled form."
+msgstr ""
+
+msgid "Sound"
+msgstr ""
+
+msgid "A resource primarily intended to be heard."
+msgstr ""
+
+msgid "A resource consisting primarily of words for reading."
+msgstr ""
+
+msgid "Physical Object"
+msgstr ""
+
+msgid "An inanimate, three-dimensional object or substance."
+msgstr ""
+
+msgid "Still Image"
+msgstr ""
+
+msgid "A static visual representation."
+msgstr ""
+
+msgid "Moving Image"
+msgstr ""
+
+msgid ""
+"A series of visual representations imparting an impression of motion when "
+"shown in succession."
+msgstr ""
+
+msgid "Bibliographic Ontology"
+msgstr ""
+
+msgid "Bibliographic metadata (BIBO)"
+msgstr ""
+
+msgid "Academic Article"
+msgstr ""
+
+msgid "A scholarly academic article, typically published in a journal."
+msgstr ""
+
+msgid "Article"
+msgstr ""
+
+msgid ""
+"A written composition in prose, usually nonfiction, on a specific topic, "
+"forming an independent part of a book or other publication, as a newspaper "
+"or magazine."
+msgstr ""
+
+msgid "audio document"
+msgstr ""
+
+msgid "An audio document; aka record."
+msgstr ""
+
+msgid "audio-visual document"
+msgstr ""
+
+msgid "An audio-visual document; film, video, and so forth."
+msgstr ""
+
+msgid "Bill"
+msgstr ""
+
+msgid "Draft legislation presented for discussion to a legal body."
+msgstr ""
+
+msgid "Book"
+msgstr ""
+
+msgid ""
+"A written or printed work of fiction or nonfiction, usually on sheets of "
+"paper fastened or bound together within covers."
+msgstr ""
+
+msgid "Book Section"
+msgstr ""
+
+msgid "A section of a book."
+msgstr ""
+
+msgid "Brief"
+msgstr ""
+
+msgid "A written argument submitted to a court."
+msgstr ""
+
+msgid "Chapter"
+msgstr ""
+
+msgid "A chapter of a book."
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "A collection of statutes."
+msgstr ""
+
+msgid "Collected Document"
+msgstr ""
+
+msgid "A document that simultaneously contains other documents."
+msgstr ""
+
+msgid "A collection of Documents or Collections"
+msgstr ""
+
+msgid "Conference"
+msgstr ""
+
+msgid "A meeting for consultation or discussion."
+msgstr ""
+
+msgid "Court Reporter"
+msgstr ""
+
+msgid "A collection of legal cases."
+msgstr ""
+
+msgid "Document"
+msgstr "Dogfen"
+
+msgid ""
+"A document (noun) is a bounded physical representation of body of "
+"information designed with the capacity (and usually intent) to communicate. "
+"A document may manifest symbolic, diagrammatic or sensory-representational "
+"information."
+msgstr ""
+
+msgid "document part"
+msgstr ""
+
+msgid "a distinct part of a larger document or collected document."
+msgstr ""
+
+msgid "Document Status"
+msgstr ""
+
+msgid "The status of the publication of a document."
+msgstr ""
+
+msgid "Edited Book"
+msgstr ""
+
+msgid "An edited book."
+msgstr ""
+
+msgid "EMail"
+msgstr ""
+
+msgid ""
+"A written communication addressed to a person or organization and "
+"transmitted electronically."
+msgstr ""
+
+msgid "Excerpt"
+msgstr ""
+
+msgid "A passage selected from a larger work."
+msgstr ""
+
+msgid "Film"
+msgstr ""
+
+msgid "aka movie."
+msgstr ""
+
+msgid "Hearing"
+msgstr ""
+
+msgid ""
+"An instance or a session in which testimony and arguments are presented, "
+"esp. before an official, as a judge in a lawsuit."
+msgstr ""
+
+msgid "A document that presents visual or diagrammatic information."
+msgstr ""
+
+msgid "Interview"
+msgstr ""
+
+msgid "A formalized discussion between two or more people."
+msgstr ""
+
+msgid "Issue"
+msgstr ""
+
+msgid ""
+"something that is printed or published and distributed, esp. a given number "
+"of a periodical"
+msgstr ""
+
+msgid "Journal"
+msgstr ""
+
+msgid "A periodical of scholarly journal Articles."
+msgstr ""
+
+msgid "Legal Case Document"
+msgstr ""
+
+msgid "A document accompanying a legal case."
+msgstr ""
+
+msgid "Decision"
+msgstr ""
+
+msgid ""
+"A document containing an authoritative determination (as a decree or "
+"judgment) made after consideration of facts or law."
+msgstr ""
+
+msgid "Legal Document"
+msgstr ""
+
+msgid "A legal document; for example, a court decision, a brief, and so forth."
+msgstr ""
+
+msgid "Legislation"
+msgstr ""
+
+msgid "A legal document proposing or enacting a law or a group of laws."
+msgstr ""
+
+msgid "Letter"
+msgstr ""
+
+msgid ""
+"A written or printed communication addressed to a person or organization and "
+"usually transmitted by mail."
+msgstr ""
+
+msgid "Magazine"
+msgstr ""
+
+msgid ""
+"A periodical of magazine Articles. A magazine is a publication that is "
+"issued periodically, usually bound in a paper cover, and typically contains "
+"essays, stories, poems, etc., by many writers, and often photographs and "
+"drawings, frequently specializing in a particular subject or area, as "
+"hobbies, news, or sports."
+msgstr ""
+
+msgid "Manual"
+msgstr ""
+
+msgid "A small reference book, especially one giving instructions."
+msgstr ""
+
+msgid "Manuscript"
+msgstr ""
+
+msgid ""
+"An unpublished Document, which may also be submitted to a publisher for "
+"publication."
+msgstr ""
+
+msgid "Map"
+msgstr ""
+
+msgid "A graphical depiction of geographic features."
+msgstr ""
+
+msgid "Multivolume Book"
+msgstr ""
+
+msgid "A loose, thematic, collection of Documents, often Books."
+msgstr ""
+
+msgid "Newspaper"
+msgstr ""
+
+msgid ""
+"A periodical of documents, usually issued daily or weekly, containing "
+"current news, editorials, feature articles, and usually advertising."
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgid "Notes or annotations about a resource."
+msgstr ""
+
+msgid "Patent"
+msgstr ""
+
+msgid ""
+"A document describing the exclusive right granted by a government to an "
+"inventor to manufacture, use, or sell an invention for a certain number of "
+"years."
+msgstr ""
+
+msgid "Performance"
+msgstr ""
+
+msgid "A public performance."
+msgstr ""
+
+msgid "Periodical"
+msgstr ""
+
+msgid "A group of related documents issued at regular intervals."
+msgstr ""
+
+msgid "Personal Communication"
+msgstr ""
+
+msgid "A communication between an agent and one or more specific recipients."
+msgstr ""
+
+msgid "Personal Communication Document"
+msgstr ""
+
+msgid "A personal communication manifested in some document."
+msgstr ""
+
+msgid "Proceedings"
+msgstr ""
+
+msgid ""
+"A compilation of documents published from an event, such as a conference."
+msgstr ""
+
+msgid "Quote"
+msgstr ""
+
+msgid "An excerpted collection of words."
+msgstr ""
+
+msgid "Reference Source"
+msgstr ""
+
+msgid ""
+"A document that presents authoritative reference information, such as a "
+"dictionary or encylopedia ."
+msgstr ""
+
+msgid "Report"
+msgstr ""
+
+msgid ""
+"A document describing an account or statement describing in detail an event, "
+"situation, or the like, usually as the result of observation, inquiry, etc.."
+msgstr ""
+
+msgid "Series"
+msgstr ""
+
+msgid "Slide"
+msgstr ""
+
+msgid "A slide in a slideshow"
+msgstr ""
+
+msgid "Slideshow"
+msgstr ""
+
+msgid ""
+"A presentation of a series of slides, usually presented in front of an "
+"audience with written text and images."
+msgstr ""
+
+msgid "A document describing a standard"
+msgstr ""
+
+msgid "Statute"
+msgstr ""
+
+msgid "A bill enacted into law."
+msgstr ""
+
+msgid "Thesis"
+msgstr ""
+
+msgid ""
+"A document created to summarize research findings associated with the "
+"completion of an academic degree."
+msgstr ""
+
+msgid "Thesis degree"
+msgstr ""
+
+msgid "The academic degree of a Thesis"
+msgstr ""
+
+msgid "Webpage"
+msgstr ""
+
+msgid ""
+"A web page is an online document available (at least initially) on the world "
+"wide web. A web page is written first and foremost to appear on the web, as "
+"distinct from other online resources such as books, manuscripts or audio "
+"documents which use the web primarily as a distribution mechanism alongside "
+"other more traditional methods such as print."
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "A group of Webpages accessible on the Web."
+msgstr ""
+
+msgid "Workshop"
+msgstr ""
+
+msgid ""
+"A seminar, discussion group, or the like, that emphasizes zxchange of ideas "
+"and the demonstration and application of techniques, skills, etc."
+msgstr ""
+
+msgid "affirmedBy"
+msgstr ""
+
+msgid "A legal decision that affirms a ruling."
+msgstr ""
+
+msgid "annotates"
+msgstr ""
+
+msgid "Critical or explanatory note for a Document."
+msgstr ""
+
+msgid "list of authors"
+msgstr ""
+
+msgid ""
+"An ordered list of authors. Normally, this list is seen as a priority list "
+"that order authors by importance."
+msgstr ""
+
+msgid "cited by"
+msgstr ""
+
+msgid "Relates a document to another document that cites th"
+msgstr ""
+
+msgid "cites"
+msgstr ""
+
+msgid "Relates a document to another document that is cite"
+msgstr ""
+
+msgid "list of contributors"
+msgstr ""
+
+msgid ""
+"An ordered list of contributors. Normally, this list is seen as a priority "
+"list that order contributors by importance."
+msgstr ""
+
+msgid "court"
+msgstr ""
+
+msgid ""
+"A court associated with a legal document; for example, that which issues a "
+"decision."
+msgstr ""
+
+msgid "degree"
+msgstr ""
+
+msgid "The thesis degree."
+msgstr ""
+
+msgid "director"
+msgstr ""
+
+msgid "A Film director."
+msgstr ""
+
+msgid "distributor"
+msgstr ""
+
+msgid "Distributor of a document or a collection of documents."
+msgstr ""
+
+msgid "editor"
+msgstr ""
+
+msgid ""
+"A person having managerial and sometimes policy-making responsibility for "
+"the editorial part of a publishing firm or of a newspaper, magazine, or "
+"other publication."
+msgstr ""
+
+msgid "list of editors"
+msgstr ""
+
+msgid ""
+"An ordered list of editors. Normally, this list is seen as a priority list "
+"that order editors by importance."
+msgstr ""
+
+msgid "interviewee"
+msgstr ""
+
+msgid "An agent that is interviewed by another agent."
+msgstr ""
+
+msgid "interviewer"
+msgstr ""
+
+msgid "An agent that interview another agent."
+msgstr ""
+
+msgid "issuer"
+msgstr ""
+
+msgid ""
+"An entity responsible for issuing often informally published documents such "
+"as press releases, reports, etc."
+msgstr ""
+
+msgid "organizer"
+msgstr ""
+
+msgid ""
+"The organizer of an event; includes conference organizers, but also "
+"government agencies or other bodies that are responsible for conducting "
+"hearings."
+msgstr ""
+
+msgid "owner"
+msgstr ""
+
+msgid "Owner of a document or a collection of documents."
+msgstr ""
+
+msgid "performer"
+msgstr ""
+
+msgid "presented at"
+msgstr ""
+
+msgid "Relates a document to an event; for example, a paper to a conference."
+msgstr ""
+
+msgid "presents"
+msgstr ""
+
+msgid ""
+"Relates an event to associated documents; for example, conference to a paper."
+msgstr ""
+
+msgid "producer"
+msgstr ""
+
+msgid "Producer of a document or a collection of documents."
+msgstr ""
+
+msgid "recipient"
+msgstr ""
+
+msgid "An agent that receives a communication document."
+msgstr ""
+
+msgid "reproducedIn"
+msgstr ""
+
+msgid "The resource in which another resource is reproduced."
+msgstr ""
+
+msgid "reversedBy"
+msgstr ""
+
+msgid "A legal decision that reverses a ruling."
+msgstr ""
+
+msgid "review of"
+msgstr ""
+
+msgid "Relates a review document to a reviewed thing (resource, item, etc.)."
+msgstr ""
+
+msgid "status"
+msgstr ""
+
+msgid "The publication status of (typically academic) content."
+msgstr ""
+
+msgid "subsequentLegalDecision"
+msgstr ""
+
+msgid ""
+"A legal decision on appeal that takes action on a case (affirming it, "
+"reversing it, etc.)."
+msgstr ""
+
+msgid "transcript of"
+msgstr ""
+
+msgid "Relates a document to some transcribed original."
+msgstr ""
+
+msgid "translation of"
+msgstr ""
+
+msgid "Relates a translated document to the original document."
+msgstr ""
+
+msgid "translator"
+msgstr ""
+
+msgid "A person who translates written document from one language to another."
+msgstr ""
+
+msgid "abstract"
+msgstr ""
+
+msgid "date argued"
+msgstr ""
+
+msgid ""
+"The date on which a legal case is argued before a court. Date is of format "
+"xsd:date"
+msgstr ""
+
+msgid "asin"
+msgstr ""
+
+msgid "chapter"
+msgstr ""
+
+msgid "An chapter number"
+msgstr ""
+
+msgid "coden"
+msgstr ""
+
+msgid "content"
+msgstr "cynnwys"
+
+msgid ""
+"This property is for a plain-text rendering of the content of a Document. "
+"While the plain-text content of an entire document could be described by "
+"this property."
+msgstr ""
+
+msgid "doi"
+msgstr ""
+
+msgid "eanucc13"
+msgstr ""
+
+msgid "edition"
+msgstr ""
+
+msgid ""
+"The name defining a special edition of a document. Normally its a literal "
+"value composed of a version number and words."
+msgstr ""
+
+msgid "eissn"
+msgstr ""
+
+msgid "gtin14"
+msgstr ""
+
+msgid "handle"
+msgstr ""
+
+msgid "identifier"
+msgstr ""
+
+msgid "isbn"
+msgstr ""
+
+msgid "isbn10"
+msgstr ""
+
+msgid "isbn13"
+msgstr ""
+
+msgid "issn"
+msgstr ""
+
+msgid "issue"
+msgstr ""
+
+msgid "An issue number"
+msgstr ""
+
+msgid "lccn"
+msgstr ""
+
+msgid "locator"
+msgstr ""
+
+msgid ""
+"A description (often numeric) that locates an item within a containing "
+"document or collection."
+msgstr ""
+
+msgid "number of pages"
+msgstr ""
+
+msgid "The number of pages contained in a document"
+msgstr ""
+
+msgid "number of volumes"
+msgstr ""
+
+msgid ""
+"The number of volumes contained in a collection of documents (usually a "
+"series, periodical, etc.)."
+msgstr ""
+
+msgid "number"
+msgstr ""
+
+msgid ""
+"A generic item or document number. Not to be confused with issue number."
+msgstr ""
+
+msgid "oclcnum"
+msgstr ""
+
+msgid "page end"
+msgstr ""
+
+msgid "Ending page number within a continuous page range."
+msgstr ""
+
+msgid "page start"
+msgstr ""
+
+msgid "Starting page number within a continuous page range."
+msgstr ""
+
+msgid "pages"
+msgstr ""
+
+msgid ""
+"A string of non-contiguous page spans that locate a Document within a "
+"Collection. Example: 23-25, 34, 54-56. For continuous page ranges, use the "
+"pageStart and pageEnd properties."
+msgstr ""
+
+msgid "pmid"
+msgstr ""
+
+msgid "prefix name"
+msgstr ""
+
+msgid "The prefix of a name"
+msgstr ""
+
+msgid "section"
+msgstr ""
+
+msgid "A section number"
+msgstr ""
+
+msgid "shortDescription"
+msgstr ""
+
+msgid "short title"
+msgstr ""
+
+msgid "The abbreviation of a title."
+msgstr ""
+
+msgid "sici"
+msgstr ""
+
+msgid "suffix name"
+msgstr ""
+
+msgid "The suffix of a name"
+msgstr ""
+
+msgid "upc"
+msgstr ""
+
+msgid "uri"
+msgstr ""
+
+msgid "Universal Resource Identifier of a document"
+msgstr ""
+
+msgid "volume"
+msgstr ""
+
+msgid "A volume number"
+msgstr ""
+
+msgid "Friend of a Friend"
+msgstr ""
+
+msgid "Relationships between people and organizations (FOAF)"
+msgstr ""
+
+msgid "Label Property"
+msgstr ""
+
+msgid ""
+"A foaf:LabelProperty is any RDF property with texual values that serve as "
+"labels."
+msgstr ""
+
+msgid "Person"
+msgstr "Person"
+
+msgid "A person."
+msgstr ""
+
+msgid "An agent (eg. person, group, software or physical artifact)."
+msgstr ""
+
+msgid "A document."
+msgstr ""
+
+msgid "Organization"
+msgstr ""
+
+msgid "An organization."
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "A class of Agents."
+msgstr ""
+
+msgid "Project"
+msgstr ""
+
+msgid "A project (a collective endeavour of some kind)."
+msgstr ""
+
+msgid "An image."
+msgstr ""
+
+msgid "PersonalProfileDocument"
+msgstr ""
+
+msgid "A personal profile RDF document."
+msgstr ""
+
+msgid "Online Account"
+msgstr ""
+
+msgid "An online account."
+msgstr ""
+
+msgid "Online Gaming Account"
+msgstr ""
+
+msgid "An online gaming account."
+msgstr ""
+
+msgid "Online E-commerce Account"
+msgstr ""
+
+msgid "An online e-commerce account."
+msgstr ""
+
+msgid "Online Chat Account"
+msgstr ""
+
+msgid "An online chat account."
+msgstr ""
+
+msgid "personal mailbox"
+msgstr ""
+
+msgid ""
+"A  personal mailbox, ie. an Internet mailbox associated with exactly one "
+"owner, the first owner of this mailbox. This is a 'static inverse functional "
+"property', in that  there is (across time and change) at most one individual "
+"that ever has any particular value for foaf:mbox."
+msgstr ""
+
+msgid "sha1sum of a personal mailbox URI name"
+msgstr ""
+
+msgid ""
+"The sha1sum of the URI of an Internet mailbox associated with exactly one "
+"owner, the  first owner of the mailbox."
+msgstr ""
+
+msgid "gender"
+msgstr ""
+
+msgid ""
+"The gender of this Agent (typically but not necessarily 'male' or 'female')."
+msgstr ""
+
+msgid "geekcode"
+msgstr ""
+
+msgid ""
+"A textual geekcode for this person, see http://www.geekcode.com/geek.html"
+msgstr ""
+
+msgid "DNA checksum"
+msgstr ""
+
+msgid "A checksum for the DNA of some thing. Joke."
+msgstr ""
+
+msgid "sha1sum (hex)"
+msgstr ""
+
+msgid "A sha1sum hash, in hex."
+msgstr ""
+
+msgid "based near"
+msgstr ""
+
+msgid ""
+"A location that something is based near, for some broadly human notion of "
+"near."
+msgstr ""
+
+msgid "title"
+msgstr ""
+
+msgid "Title (Mr, Mrs, Ms, Dr. etc)"
+msgstr ""
+
+msgid "nickname"
+msgstr ""
+
+msgid ""
+"A short informal nickname characterising an agent (includes login "
+"identifiers, IRC and other chat nicknames)."
+msgstr ""
+
+msgid "jabber ID"
+msgstr ""
+
+msgid "A jabber ID for something."
+msgstr ""
+
+msgid "AIM chat ID"
+msgstr ""
+
+msgid "An AIM chat ID"
+msgstr ""
+
+msgid "Skype ID"
+msgstr ""
+
+msgid "A Skype ID"
+msgstr ""
+
+msgid "ICQ chat ID"
+msgstr ""
+
+msgid "An ICQ chat ID"
+msgstr ""
+
+msgid "Yahoo chat ID"
+msgstr ""
+
+msgid "A Yahoo chat ID"
+msgstr ""
+
+msgid "MSN chat ID"
+msgstr ""
+
+msgid "An MSN chat ID"
+msgstr ""
+
+msgid "name"
+msgstr ""
+
+msgid "A name for some thing."
+msgstr ""
+
+msgid "firstName"
+msgstr ""
+
+msgid "The first name of a person."
+msgstr ""
+
+msgid "lastName"
+msgstr ""
+
+msgid "The last name of a person."
+msgstr ""
+
+msgid "Given name"
+msgstr ""
+
+msgid "The given name of some person."
+msgstr ""
+
+msgid "Surname"
+msgstr "Enw Defnyddiwr"
+
+msgid "The surname of some person."
+msgstr ""
+
+msgid "family_name"
+msgstr ""
+
+msgid "The family name of some person."
+msgstr ""
+
+msgid "familyName"
+msgstr ""
+
+msgid "phone"
+msgstr ""
+
+msgid ""
+"A phone,  specified using fully qualified tel: URI scheme (refs: http://www."
+"w3.org/Addressing/schemes.html#tel)."
+msgstr ""
+
+msgid "homepage"
+msgstr ""
+
+msgid "A homepage for some thing."
+msgstr ""
+
+msgid "weblog"
+msgstr ""
+
+msgid "A weblog of some thing (whether person, group, company etc.)."
+msgstr ""
+
+msgid "openid"
+msgstr ""
+
+msgid "An OpenID for an Agent."
+msgstr ""
+
+msgid "tipjar"
+msgstr ""
+
+msgid ""
+"A tipjar document for this agent, describing means for payment and reward."
+msgstr ""
+
+msgid "plan"
+msgstr ""
+
+msgid "A .plan comment, in the tradition of finger and '.plan' files."
+msgstr ""
+
+msgid "made"
+msgstr ""
+
+msgid "Something that was made by this agent."
+msgstr ""
+
+msgid "maker"
+msgstr ""
+
+msgid "An agent that  made this thing."
+msgstr ""
+
+msgid "image"
+msgstr ""
+
+msgid ""
+"An image that can be used to represent some thing (ie. those depictions "
+"which are particularly representative of something, eg. one's photo on a "
+"homepage)."
+msgstr ""
+
+msgid "depiction"
+msgstr ""
+
+msgid "A depiction of some thing."
+msgstr ""
+
+msgid "depicts"
+msgstr ""
+
+msgid "A thing depicted in this representation."
+msgstr ""
+
+msgid "thumbnail"
+msgstr ""
+
+msgid "A derived thumbnail image."
+msgstr ""
+
+msgid "myersBriggs"
+msgstr ""
+
+msgid "A Myers Briggs (MBTI) personality classification."
+msgstr ""
+
+msgid "workplace homepage"
+msgstr ""
+
+msgid ""
+"A workplace homepage of some person; the homepage of an organization they "
+"work for."
+msgstr ""
+
+msgid "work info homepage"
+msgstr ""
+
+msgid ""
+"A work info homepage of some person; a page about their work for some "
+"organization."
+msgstr ""
+
+msgid "schoolHomepage"
+msgstr ""
+
+msgid "A homepage of a school attended by the person."
+msgstr ""
+
+msgid "knows"
+msgstr ""
+
+msgid ""
+"A person known by this person (indicating some level of reciprocated "
+"interaction between the parties)."
+msgstr ""
+
+msgid "interest"
+msgstr ""
+
+msgid "A page about a topic of interest to this person."
+msgstr ""
+
+msgid "topic_interest"
+msgstr ""
+
+msgid "A thing of interest to this person."
+msgstr ""
+
+msgid "publications"
+msgstr ""
+
+msgid "A link to the publications of this person."
+msgstr ""
+
+msgid "current project"
+msgstr "prosiect cyfredol"
+
+msgid "A current project this person works on."
+msgstr ""
+
+msgid "past project"
+msgstr ""
+
+msgid "A project this person has previously worked on."
+msgstr ""
+
+msgid "funded by"
+msgstr ""
+
+msgid "An organization funding a project or person."
+msgstr ""
+
+msgid "logo"
+msgstr ""
+
+msgid "A logo representing some thing."
+msgstr ""
+
+msgid "topic"
+msgstr ""
+
+msgid "A topic of some page or document."
+msgstr ""
+
+msgid "primary topic"
+msgstr ""
+
+msgid "The primary topic of some page or document."
+msgstr ""
+
+msgid "focus"
+msgstr ""
+
+msgid ""
+"The underlying or 'focal' entity associated with some SKOS-described concept."
+msgstr ""
+
+msgid "is primary topic of"
+msgstr ""
+
+msgid "A document that this thing is the primary topic of."
+msgstr ""
+
+msgid "A page or document about this thing."
+msgstr ""
+
+msgid "theme"
+msgstr "themâu"
+
+msgid "A theme."
+msgstr ""
+
+msgid "account"
+msgstr ""
+
+msgid "Indicates an account held by this agent."
+msgstr ""
+
+msgid "account service homepage"
+msgstr ""
+
+msgid "Indicates a homepage of the service provide for this online account."
+msgstr ""
+
+msgid "account name"
+msgstr ""
+
+msgid "Indicates the name (identifier) associated with this online account."
+msgstr ""
+
+msgid "member"
+msgstr ""
+
+msgid "Indicates a member of a Group"
+msgstr ""
+
+msgid "membershipClass"
+msgstr ""
+
+msgid "Indicates the class of individuals that are a member of a Group"
+msgstr ""
+
+msgid "birthday"
+msgstr ""
+
+msgid ""
+"The birthday of this Agent, represented in mm-dd string form, eg. '12-31'."
+msgstr ""
+
+msgid "age"
+msgstr ""
+
+msgid "The age in years of some agent."
+msgstr ""
+
+msgid ""
+"A string expressing what the user is happy for the general public (normally) "
+"to know about their current activity."
+msgstr ""
