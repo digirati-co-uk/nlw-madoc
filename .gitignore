@@ -1,3 +1,6 @@
 database/sensitive/*.sql
 !database/sensitive/.gitignore
 ./nlw-madoc-migration
+var/es
+var/files
+!var/.gitkeep

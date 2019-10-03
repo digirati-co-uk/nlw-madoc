@@ -27,7 +27,7 @@ endif;
 <?php echo $this->htmlElement('body'); ?>
 
 <?php echo $this->userBar(); ?>
-
+<?php /** @var $site \Omeka\Api\Representation\SiteRepresentation */ ?>
 <header>
     <div class="site-details">
         <?php if ($this->themeSetting('logo')): ?>
@@ -43,7 +43,9 @@ endif;
     <div id="search">
         <?php echo $this->partial('common/search-form'); ?>
     </div>
-
+    <?php if ($this->siteSetting('i18n-language-list', '')): ?>
+        <?php try { echo $this->partial('common/locale-helper'); } catch (\Throwable $e) {} ?>
+    <?php endif; ?>
     <nav>
         <?php
         echo $site->publicNav()->menu()->renderMenu(null, [
