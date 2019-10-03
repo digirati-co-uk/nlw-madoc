@@ -146,13 +146,13 @@ msgid "Module \"%s\" not found in database during uninstallation"
 msgstr ""
 
 msgid "Module \"%s\" is marked as \"%s\" and cannot be upgraded"
-msgstr ""
+msgstr "Mae modiwl \"%s\" wedi ei farcio fel \"%s\" ac ni ellir ei uwchraddio"
 
 msgid "Module \"%s\" not found in database during upgrade"
-msgstr ""
+msgstr "Ni ddarganfyddwyd modiwl \"%s\" yn y gronfa ddata wrth uwchraddio"
 
 msgid "Permission denied for the current user to %s the %s module."
-msgstr ""
+msgstr "Gwrthodwyd caniatad i'r defnyddiwr presennol i %s ym modiwl %s."
 
 msgid ""
 "Permission denied for the current user to access the %1$s action of the %2$s "
@@ -175,7 +175,7 @@ msgid "Number of child page levels to display"
 msgstr "Nifer o lefelau is-dudalennau i'w harddangos"
 
 msgid "Home"
-msgstr ""
+msgstr "Adref"
 
 msgid "Greetings, %1$s"
 msgstr ""
@@ -223,7 +223,7 @@ msgid "has no values"
 msgstr "heb unrhyw werth"
 
 msgid "Class"
-msgstr ""
+msgstr "Dosbarth"
 
 msgid "Unknown class"
 msgstr ""
@@ -295,7 +295,7 @@ msgid "The maximum upload size is %s MB."
 msgstr "Y mwyafswm maint llwytho i fyny yw %s MB."
 
 msgid "Search by item set"
-msgstr ""
+msgstr "Chwiliwch yn ôl set eitemau"
 
 msgid "Expand"
 msgstr ""
@@ -445,10 +445,10 @@ msgid "Filter item sets"
 msgstr ""
 
 msgid "All item sets"
-msgstr ""
+msgstr "Y setiau eitemau oll"
 
 msgid "[no owner]"
-msgstr ""
+msgstr "[dim perchennog]"
 
 msgid "More info"
 msgstr "Mwy o wybodaeth"
@@ -457,7 +457,7 @@ msgid "Filter by property"
 msgstr ""
 
 msgid "All"
-msgstr ""
+msgstr "Y cyfan"
 
 msgid "Title"
 msgstr "Teitl"
@@ -502,7 +502,7 @@ msgid "Remove"
 msgstr "Tynnu"
 
 msgid "Add resource value"
-msgstr ""
+msgstr "Ychwanegu gwerth adnodd"
 
 msgid "Resource ID"
 msgstr ""
@@ -538,13 +538,13 @@ msgid "Add value"
 msgstr ""
 
 msgid "Text"
-msgstr ""
+msgstr "Testun"
 
 msgid "Omeka resource"
 msgstr "Adnodd Omeka"
 
 msgid "Select resource"
-msgstr ""
+msgstr "Dewis adnodd"
 
 msgid "Prev"
 msgstr "Blaen"
@@ -756,7 +756,7 @@ msgid "Identifier"
 msgstr "Dynodwr"
 
 msgid "Owner"
-msgstr ""
+msgstr "Perchennog"
 
 msgid "Created"
 msgstr ""
@@ -768,16 +768,16 @@ msgid "Batch actions"
 msgstr ""
 
 msgid "Edit selected"
-msgstr ""
+msgstr "Dewiswyd golygu"
 
 msgid "Edit all"
-msgstr ""
+msgstr "Golygu'r cyfan"
 
 msgid "Delete selected"
-msgstr ""
+msgstr "Dewiswyd dileu"
 
 msgid "Delete all"
-msgstr ""
+msgstr "Dileu'r cyfan"
 
 msgid "Go"
 msgstr ""
@@ -798,17 +798,17 @@ msgid "Details"
 msgstr "Manylion"
 
 msgid "Delete item sets"
-msgstr ""
+msgstr "Dileu setiau eitemau"
 
 msgid "Are you sure you would like to delete the selected item sets?"
-msgstr ""
+msgstr "Ydych chi'n siwr eich bod am ddileu'r setiau eitemau a ddewiswyd?"
 
 msgid ""
 "%s: this action will permanently delete %s item sets and cannot be undone."
 msgstr ""
 
 msgid "Warning"
-msgstr ""
+msgstr "Rhybudd"
 
 msgid ""
 "Are you sure you would like to delete all item sets on all pages of this "
@@ -825,13 +825,13 @@ msgid "Values"
 msgstr ""
 
 msgid "Thumbnail"
-msgstr ""
+msgstr "Mân-lun"
 
 msgid "Close item set"
-msgstr ""
+msgstr "Cau setiau eitemau"
 
 msgid "Open item set"
-msgstr ""
+msgstr "Agor setiau eitemau"
 
 msgid "Make public"
 msgstr ""
@@ -891,13 +891,13 @@ msgid "You are editing %s items."
 msgstr ""
 
 msgid "Select item"
-msgstr ""
+msgstr "Dewis eitem"
 
 msgid "Delete items"
 msgstr "Dileu Eitemau"
 
 msgid "Are you sure you would like to delete the selected items?"
-msgstr ""
+msgstr "Ydych chi'n siwr eich bod am ddileu'r eitemau a ddewiswyd?"
 
 msgid "%s: this action will permanently delete %s items and cannot be undone."
 msgstr ""
@@ -941,13 +941,13 @@ msgid "No resources link to this item."
 msgstr ""
 
 msgid "Filter search"
-msgstr ""
+msgstr "Hidlo chwiliad"
 
 msgid "Quick add"
 msgstr ""
 
 msgid "items"
-msgstr ""
+msgstr "eitemau"
 
 msgid "ID"
 msgstr ""
@@ -962,16 +962,16 @@ msgid "Omeka could not find any jobs."
 msgstr ""
 
 msgid "[not started]"
-msgstr ""
+msgstr "[heb gychwyn]"
 
 msgid "[not ended]"
-msgstr ""
+msgstr "[heb ei orffen]"
 
 msgid "Started"
-msgstr ""
+msgstr "Cychwynnwyd"
 
 msgid "Ended"
-msgstr ""
+msgstr "Gorffennwyd"
 
 msgid "Args"
 msgstr ""
@@ -1029,7 +1029,7 @@ msgid "Size"
 msgstr ""
 
 msgid "%s bytes"
-msgstr ""
+msgstr "%s beit"
 
 msgid "Edit media"
 msgstr ""
@@ -1113,10 +1113,10 @@ msgid "Comment"
 msgstr "Sylw"
 
 msgid "New resource template"
-msgstr ""
+msgstr "Adnodd templed newydd"
 
 msgid "Resource templates"
-msgstr ""
+msgstr "~Templedi adnodd"
 
 msgid "Import"
 msgstr ""
@@ -1134,7 +1134,7 @@ msgid "Other options"
 msgstr ""
 
 msgid "Required"
-msgstr ""
+msgstr "Gofynnol"
 
 msgid "Data type"
 msgstr ""
@@ -1231,7 +1231,7 @@ msgid "Omeka could not find any users."
 msgstr ""
 
 msgid "User information"
-msgstr ""
+msgstr "Gwybodaeth defnyddiwr"
 
 msgid "User settings"
 msgstr ""
@@ -1255,7 +1255,7 @@ msgid "Edit user"
 msgstr "Golygu Defnyddiwr"
 
 msgid "Display name"
-msgstr ""
+msgstr "Arddangos enw"
 
 msgid "Prefix"
 msgstr ""
@@ -1285,7 +1285,7 @@ msgid "New vocabulary"
 msgstr ""
 
 msgid "This vocabulary has no properties."
-msgstr ""
+msgstr "Does dim priodweddau gan y geirfa yma"
 
 msgid "Update"
 msgstr ""
@@ -1324,7 +1324,7 @@ msgid "Forgot password?"
 msgstr "Anghofio cyfrinair?"
 
 msgid "Site under maintenance"
-msgstr ""
+msgstr "Gwaith cynnal a chadw ar y safle"
 
 msgid ""
 "This site is down for maintenance. Please contact the site administrator fo"
@@ -1338,7 +1338,7 @@ msgid ""
 msgstr ""
 
 msgid "New page"
-msgstr ""
+msgstr "Tudalen newydd"
 
 msgid "Pages"
 msgstr "Tudalennau"
@@ -1433,7 +1433,7 @@ msgid ""
 msgstr ""
 
 msgid "Restore"
-msgstr ""
+msgstr "Adfer"
 
 msgid "User permissions"
 msgstr ""
@@ -1448,7 +1448,7 @@ msgid "Click on a user to add them to the site."
 msgstr ""
 
 msgid "Change item"
-msgstr ""
+msgstr "Newid eitem"
 
 msgid "No item selected."
 msgstr ""
@@ -1457,16 +1457,16 @@ msgid "Add new block"
 msgstr ""
 
 msgid "Caption"
-msgstr ""
+msgstr "Capsiwn"
 
 msgid "Apply changes"
 msgstr ""
 
 msgid "Add new page"
-msgstr ""
+msgstr "Ychwanegu tudalen newydd"
 
 msgid "Slug"
-msgstr ""
+msgstr "Slug"
 
 msgid "View public page"
 msgstr ""
@@ -1499,16 +1499,16 @@ msgid "Set openness"
 msgstr ""
 
 msgid "Open"
-msgstr ""
+msgstr "Agor"
 
 msgid "Not open"
-msgstr ""
+msgstr "Ddim ar agor"
 
 msgid "Select a template"
-msgstr ""
+msgstr "Dewis templed"
 
 msgid "Set template"
-msgstr ""
+msgstr "Gosod templed"
 
 msgid "[Unset template]"
 msgstr ""
@@ -1697,7 +1697,7 @@ msgid ""
 msgstr ""
 
 msgid "Namespace URI"
-msgstr ""
+msgstr "URI bylchau enw"
 
 msgid ""
 "The unique namespace URI used by the vocabulary to identify local member "
@@ -1771,7 +1771,7 @@ msgid "Upgrade"
 msgstr "Uwchraddio"
 
 msgid "Create the first user"
-msgstr ""
+msgstr "Creu y defnyddiwr cyntaf"
 
 msgid "Settings"
 msgstr "Gosodiadau"
@@ -1870,7 +1870,7 @@ msgid "Resource template file"
 msgstr ""
 
 msgid "Update vocabulary"
-msgstr ""
+msgstr "Diweddaru geirfa"
 
 msgid ""
 "Update this vocabulary to a newer version. You will be able to review the "
@@ -1902,19 +1902,19 @@ msgid "Author"
 msgstr ""
 
 msgid "Researcher"
-msgstr ""
+msgstr "Ymchwilydd"
 
 msgid "Select property…"
 msgstr ""
 
 msgid "item title"
-msgstr ""
+msgstr "Teitl eitem"
 
 msgid "media title"
 msgstr ""
 
 msgid "no title"
-msgstr ""
+msgstr "dim teitl"
 
 msgid "Select template…"
 msgstr ""
@@ -1932,31 +1932,31 @@ msgid "Select class…"
 msgstr ""
 
 msgid "Item Set"
-msgstr ""
+msgstr "Set eitemau"
 
 msgid "Resource"
-msgstr ""
+msgstr "Adnodd"
 
 msgid "A value resource cannot be Media."
 msgstr ""
 
 msgid "starting"
-msgstr ""
+msgstr "cychwyn"
 
 msgid "stopping"
-msgstr ""
+msgstr "ataliad"
 
 msgid "in_progress"
-msgstr ""
+msgstr "ar_waith"
 
 msgid "completed"
-msgstr ""
+msgstr "cwblhawyd"
 
 msgid "stopped"
 msgstr ""
 
 msgid "error"
-msgstr ""
+msgstr "gwall"
 
 msgid "List of sites"
 msgstr ""
@@ -1989,10 +1989,10 @@ msgid "Show summaries"
 msgstr ""
 
 msgid "Page title"
-msgstr ""
+msgstr "Teitl tudalen"
 
 msgid "Table of contents"
-msgstr ""
+msgstr "Tabl cynnwys"
 
 msgid "Item with metadata"
 msgstr ""
@@ -2090,10 +2090,10 @@ msgid "Error downloading %s: %s %s"
 msgstr ""
 
 msgid "The local name cannot be empty."
-msgstr ""
+msgstr "Ni all yr enw lleol fod yn wag"
 
 msgid "The label cannot be empty."
-msgstr ""
+msgstr "Ni all y label fod yn wag"
 
 msgid "The local name \"%s\" is already taken."
 msgstr ""
@@ -2207,10 +2207,10 @@ msgid "Block data must not be a scalar value."
 msgstr ""
 
 msgid "Starting"
-msgstr ""
+msgstr "Cychwyn"
 
 msgid "Stopping"
-msgstr ""
+msgstr "Ataliad"
 
 msgid "In Progress"
 msgstr "Ar waith"
@@ -2219,7 +2219,7 @@ msgid "Completed"
 msgstr "Cwblhawyd"
 
 msgid "Stopped"
-msgstr ""
+msgstr "Wedi atal"
 
 msgid "Migration successful"
 msgstr ""
@@ -2243,7 +2243,7 @@ msgid "Site resources successfully updated"
 msgstr ""
 
 msgid "User permissions successfully updated"
-msgstr ""
+msgstr "Lefel caniatad y defnyddiwr wedi ei ddiweddaru yn llwyddiannus"
 
 msgid "Site theme successfully updated"
 msgstr ""
@@ -2267,7 +2267,7 @@ msgid "Page successfully deleted"
 msgstr ""
 
 msgid "Installation successful. Please log in."
-msgstr ""
+msgstr "Arsefydlwyd yn llwyddiannus.  Mewngofnodwch os gwelwch yn dda."
 
 msgid "There were errors during installation."
 msgstr ""
@@ -2321,16 +2321,16 @@ msgid "Editing item sets. This may take a while."
 msgstr ""
 
 msgid "item"
-msgstr ""
+msgstr "eitem"
 
 msgid "Item successfully deleted"
-msgstr ""
+msgstr "Eitem wedi ei dileu yn llwyddiannus"
 
 msgid "You must select at least one item to batch delete."
 msgstr ""
 
 msgid "Items successfully deleted"
-msgstr ""
+msgstr "Eitemau wedi eu dileu yn llwyddiannus"
 
 msgid "Deleting items. This may take a while."
 msgstr ""
@@ -2339,25 +2339,25 @@ msgid "Item successfully created. %s"
 msgstr ""
 
 msgid "Item successfully updated"
-msgstr ""
+msgstr "Eitem wedi ei diweddaru yn llwyddiannus"
 
 msgid "You must select at least one item to batch edit."
 msgstr ""
 
 msgid "Items successfully edited"
-msgstr ""
+msgstr "Eitemau wedi eu golygu yn llwyddiannus"
 
 msgid "Editing items. This may take a while."
 msgstr ""
 
 msgid "vocabulary"
-msgstr ""
+msgstr "geirfa"
 
 msgid "Vocabulary successfully imported. %s"
 msgstr ""
 
 msgid "Please review these changes before you accept them."
-msgstr ""
+msgstr "Adolygwch y newidadau yma cyn eu derbyn."
 
 msgid "Vocabulary successfully updated"
 msgstr ""
@@ -2426,10 +2426,10 @@ msgid "The job could not be stopped."
 msgstr ""
 
 msgid "User successfully created. %s"
-msgstr ""
+msgstr "Defnyddiwr wedi ei greu yn llwyddiannus"
 
 msgid "User successfully updated"
-msgstr ""
+msgstr "Defnyddiwr wedi ei ddiweddaru yn llwyddiannus"
 
 msgid "The current password entered was invalid"
 msgstr "Nid oedd y cyfrinair yma yn ddilys"
@@ -2448,10 +2448,10 @@ msgid ""
 msgstr ""
 
 msgid "user"
-msgstr ""
+msgstr "defnyddiwr"
 
 msgid "User successfully deleted"
-msgstr ""
+msgstr "Defnyddiwr wedi ei ddileu yn llwyddiannus"
 
 msgid "You must select at least one user to batch delete."
 msgstr ""
@@ -2505,7 +2505,7 @@ msgid "Activation unsuccessful"
 msgstr ""
 
 msgid "Upload file"
-msgstr ""
+msgstr "Llwytho ffeil"
 
 msgid "YouTube"
 msgstr ""
@@ -2517,7 +2517,7 @@ msgid "URL for the video to embed."
 msgstr ""
 
 msgid "Start"
-msgstr ""
+msgstr "Cychwyn"
 
 msgid ""
 "Begin playing the video at the given number of seconds from the start of the "
@@ -2557,10 +2557,10 @@ msgid "URL for the media to embed."
 msgstr ""
 
 msgid "Something went wrong"
-msgstr ""
+msgstr "Aeth rhywbeth o'i le"
 
 msgid "You have unsaved changes."
-msgstr ""
+msgstr "Mae gennych newidiadau heb eu harbed"
 
 msgid "Close icon set"
 msgstr ""
@@ -2578,7 +2578,7 @@ msgid "Please enter a valid language tag"
 msgstr ""
 
 msgid "Site info"
-msgstr ""
+msgstr "Gwybodaeth safle"
 
 msgid "Filter by owner"
 msgstr ""
@@ -2590,7 +2590,7 @@ msgid "Filter by item set"
 msgstr ""
 
 msgid "[Any Property]"
-msgstr ""
+msgstr "[Unrhyw Nodwedd]"
 
 msgid "Dublin Core"
 msgstr ""
@@ -2823,73 +2823,73 @@ msgid "Information about rights held in and over the resource."
 msgstr ""
 
 msgid "Audience"
-msgstr ""
+msgstr "Cynulleidfa"
 
 msgid "A class of entity for whom the resource is intended or useful."
-msgstr ""
+msgstr "Cynulleidfa bydd yn elwa o'r adnodd."
 
 msgid "Alternative Title"
-msgstr ""
+msgstr "Teitl Amgen"
 
 msgid "An alternative name for the resource."
 msgstr ""
 
 msgid "Table Of Contents"
-msgstr ""
+msgstr "Cynnwys"
 
 msgid "A list of subunits of the resource."
-msgstr ""
+msgstr "Rhestr o man-rannau'r adnodd."
 
 msgid "Abstract"
-msgstr ""
+msgstr "Crynodeb"
 
 msgid "A summary of the resource."
-msgstr ""
+msgstr "Crynodeb o'r adnodd."
 
 msgid "Date Created"
-msgstr ""
+msgstr "Dyddiad Creu"
 
 msgid "Date of creation of the resource."
-msgstr ""
+msgstr "Y dyddiad crewyd yr adnodd."
 
 msgid "Date Valid"
-msgstr ""
+msgstr "Dyddiad Dilysu"
 
 msgid "Date (often a range) of validity of a resource."
-msgstr ""
+msgstr "Dyddiad (yn aml yn ystod) dilysu'r adnodd."
 
 msgid "Date Available"
-msgstr ""
+msgstr "Dyddiad Ar Gael"
 
 msgid "Date (often a range) that the resource became or will become available."
-msgstr ""
+msgstr "Dyddiad (neu ystod o ddyddiadau) y bydd yr adnodd ar gael."
 
 msgid "Date Issued"
-msgstr ""
+msgstr "Dyddiad Rhyddhau"
 
 msgid "Date of formal issuance (e.g., publication) of the resource."
-msgstr ""
+msgstr "Y dyddiad rhyddhawyd yr adnodd yn swyddogol (e.e. dyddiad cyhoeddi)"
 
 msgid "Date Modified"
 msgstr "Dyddiad Addaswyd"
 
 msgid "Date on which the resource was changed."
-msgstr ""
+msgstr "Dyddiad pan newidiwyd yr adnodd."
 
 msgid "Extent"
-msgstr ""
+msgstr "Maint"
 
 msgid "The size or duration of the resource."
-msgstr ""
+msgstr "Maint neu hyd yr adnodd."
 
 msgid "Medium"
-msgstr ""
+msgstr "Cyfrwng"
 
 msgid "The material or physical carrier of the resource."
-msgstr ""
+msgstr "Y defnydd neu natur gorfforol yr adnodd."
 
 msgid "Is Version Of"
-msgstr ""
+msgstr "Yn Fersiwn O"
 
 msgid ""
 "A related resource of which the described resource is a version, edition, or "
@@ -2897,113 +2897,129 @@ msgid ""
 msgstr ""
 
 msgid "Has Version"
-msgstr ""
+msgstr "Gyda Fersiwn"
 
 msgid ""
 "A related resource that is a version, edition, or adaptation of the "
 "described resource."
 msgstr ""
+"Adnodd cysylltiedig sydd yn fersiwn, golygiad neu'n addasiad o'r adnodd a "
+"ddisgrifiwyd."
 
 msgid "Is Replaced By"
-msgstr ""
+msgstr "Disodlwyd Gan"
 
 msgid ""
 "A related resource that supplants, displaces, or supersedes the described "
 "resource."
-msgstr ""
+msgstr "Adnodd cysylltiedig sy'n disodli'r adnodd a ddisgrifiwyd."
 
 msgid "Replaces"
-msgstr ""
+msgstr "Yn Disodli"
 
 msgid ""
 "A related resource that is supplanted, displaced, or superseded by the "
 "described resource."
-msgstr ""
+msgstr "Adnodd cysylltiedig sy'n cael ei ddisodli gan yr adnodd a ddisgrifir."
 
 msgid "Is Required By"
-msgstr ""
+msgstr "Yn Ofynnol Gan"
 
 msgid ""
 "A related resource that requires the described resource to support its "
 "function, delivery, or coherence."
 msgstr ""
+"Adnodd cysylltiedig sy'n gofynol ar yr adnodd a ddisgrifir i'w gefnogi er "
+"mwyn sicrhau ei wethrediad llwyddiannus."
 
 msgid "Requires"
-msgstr ""
+msgstr "Angen"
 
 msgid ""
 "A related resource that is required by the described resource to support its "
 "function, delivery, or coherence."
 msgstr ""
+"Adnodd cysylltiedig sydd ei angen gan yr adnodd a ddisgrifir er mwyn iddo "
+"gyflawni ei swyddogaeth neu er mwyn iddo fod yn eglur."
 
 msgid "Is Part Of"
-msgstr ""
+msgstr "Yn Rhan O"
 
 msgid ""
 "A related resource in which the described resource is physically or "
 "logically included."
 msgstr ""
+"Adnodd cysylltiedig y mae'r adnodd a ddisgrifir yn rhan ohonni - naill ai'n "
+"gorfforol neu'n rhesymegol."
 
 msgid "Has Part"
-msgstr ""
+msgstr "Gyda Rhan"
 
 msgid ""
 "A related resource that is included either physically or logically in the "
 "described resource."
 msgstr ""
+"Adnodd cysylltiedig sydd wedi'i gynnwys naill ai'n gorfforol neu'n "
+"rhesymegol o fewn yr adnodd."
 
 msgid "Is Referenced By"
-msgstr ""
+msgstr "Cyfeiriwyd Gan"
 
 msgid ""
 "A related resource that references, cites, or otherwise points to the "
 "described resource."
 msgstr ""
+"Adnodd cysylltiedig sy'n cyfeirio neu'n pwyntio at yr adnodd a ddisgrifiwyd."
 
 msgid "References"
-msgstr ""
+msgstr "Cyfeiriadau"
 
 msgid ""
 "A related resource that is referenced, cited, or otherwise pointed to by the "
 "described resource."
 msgstr ""
+"Adnodd cysylltiedig sy'n cael ei gyfeirio ati gan yr adnodd a ddisgrifiwyd."
 
 msgid "Is Format Of"
-msgstr ""
+msgstr "Yn Fformat O"
 
 msgid ""
 "A related resource that is substantially the same as the described resource, "
 "but in another format."
 msgstr ""
+"Adnodd cysylltiedig sydd mwy neu lai'r un peth a'r adnodd a ddisgrifiwyd, "
+"ond mewn fformat wahanol."
 
 msgid "Has Format"
-msgstr ""
+msgstr "Gyda'r Fformat"
 
 msgid ""
 "A related resource that is substantially the same as the pre-existing "
 "described resource, but in another format."
 msgstr ""
+"Adnodd cysylltiedig sydd mwy neu lai'r un peth a'r adnodd sydd eisoes yn "
+"bodoli, ond sydd mewn fformat gwahanol."
 
 msgid "Conforms To"
-msgstr ""
+msgstr "Cydymffurfio â"
 
 msgid "An established standard to which the described resource conforms."
-msgstr ""
+msgstr "Safon sefydledig y mae'r adnodd yn cydymffurfio iddi."
 
 msgid "Spatial Coverage"
-msgstr ""
+msgstr "Ymdriniaeth Gofodol "
 
 msgid "Spatial characteristics of the resource."
-msgstr ""
+msgstr "Nodweddion gofodol yr adnodd."
 
 msgid "Temporal Coverage"
-msgstr ""
+msgstr "Ymdriniaeth Amserol"
 
 msgid "Temporal characteristics of the resource."
-msgstr ""
+msgstr "Nodweddion amserol yr adnodd."
 
 msgid "Mediator"
-msgstr ""
+msgstr "Cyfryngwr"
 
 msgid ""
 "An entity that mediates access to the resource and for whom the resource is "
@@ -3011,33 +3027,35 @@ msgid ""
 msgstr ""
 
 msgid "Date Accepted"
-msgstr ""
+msgstr "Dyddiad Derbyn"
 
 msgid "Date of acceptance of the resource."
 msgstr ""
 
 msgid "Date Copyrighted"
-msgstr ""
+msgstr "Dyddiad Hawlfraint"
 
 msgid "Date of copyright."
-msgstr ""
+msgstr "Dyddiad yr Hawlfraint."
 
 msgid "Date Submitted"
-msgstr ""
+msgstr "Dyddiad Cyflwyno"
 
 msgid "Date of submission of the resource."
 msgstr ""
 
 msgid "Audience Education Level"
-msgstr ""
+msgstr "Lefel Addysg Cynulleidfa"
 
 msgid ""
 "A class of entity, defined in terms of progression through an educational or "
 "training context, for which the described resource is intended."
 msgstr ""
+"Gwahanol lefelau o addysg neu hyfforddiant y mae'r adnodd wedi'i fwriadu "
+"atynt."
 
 msgid "Access Rights"
-msgstr ""
+msgstr "Hawliau Mynediad"
 
 msgid ""
 "Information about who can access the resource or an indication of its "
@@ -3051,21 +3069,21 @@ msgid "A bibliographic reference for the resource."
 msgstr ""
 
 msgid "License"
-msgstr ""
+msgstr "Trwydded"
 
 msgid ""
 "A legal document giving official permission to do something with the "
 "resource."
-msgstr ""
+msgstr "Dogfen gyfreithiol yn rhoi hawl swyddogol i wneud rhywbeth a'r adnodd."
 
 msgid "Rights Holder"
-msgstr ""
+msgstr "Deiliad Hawliau"
 
 msgid "A person or organization owning or managing rights over the resource."
-msgstr ""
+msgstr "Person neu gyfundrefn sy'n berchen ar neu'n rheoli hawliau'r adnodd."
 
 msgid "Provenance"
-msgstr ""
+msgstr "Tarddiad"
 
 msgid ""
 "A statement of any changes in ownership and custody of the resource since "
@@ -3074,7 +3092,7 @@ msgid ""
 msgstr ""
 
 msgid "Instructional Method"
-msgstr ""
+msgstr "Dull Cyfarwyddiadol"
 
 msgid ""
 "A process, used to engender knowledge, attitudes and skills, that the "
@@ -3082,22 +3100,22 @@ msgid ""
 msgstr ""
 
 msgid "Accrual Method"
-msgstr ""
+msgstr "Dull Cronni"
 
 msgid "The method by which items are added to a collection."
-msgstr ""
+msgstr "Y dull mae'r eitemau yn cael eu hychwanegu i'r casgliad."
 
 msgid "Accrual Periodicity"
-msgstr ""
+msgstr "Cyfnod Cronni"
 
 msgid "The frequency with which items are added to a collection."
-msgstr ""
+msgstr "Yr amlder y mae'r eitemau'n cael eu hychwanegu i gasgliad."
 
 msgid "Accrual Policy"
-msgstr ""
+msgstr "Policy Cronni"
 
 msgid "The policy governing the addition of items to a collection."
-msgstr ""
+msgstr "Y polisi sy'n llywodraethu broses o ychwanegu eitemau i gasgliad."
 
 msgid "Dublin Core Type"
 msgstr ""
@@ -3118,7 +3136,7 @@ msgid "Data encoded in a defined structure."
 msgstr ""
 
 msgid "Event"
-msgstr ""
+msgstr "Digwyddiad"
 
 msgid "A non-persistent, time-based occurrence."
 msgstr ""
@@ -3138,19 +3156,19 @@ msgid ""
 msgstr ""
 
 msgid "Service"
-msgstr ""
+msgstr "Gwasanaeth"
 
 msgid "A system that provides one or more functions."
 msgstr ""
 
 msgid "Software"
-msgstr ""
+msgstr "Meddalwedd"
 
 msgid "A computer program in source or compiled form."
 msgstr ""
 
 msgid "Sound"
-msgstr ""
+msgstr "Sain"
 
 msgid "A resource primarily intended to be heard."
 msgstr ""
@@ -3165,13 +3183,13 @@ msgid "An inanimate, three-dimensional object or substance."
 msgstr ""
 
 msgid "Still Image"
-msgstr ""
+msgstr "Delwedd Llonydd"
 
 msgid "A static visual representation."
 msgstr ""
 
 msgid "Moving Image"
-msgstr ""
+msgstr "Delwedd Symudol"
 
 msgid ""
 "A series of visual representations imparting an impression of motion when "
@@ -3185,13 +3203,13 @@ msgid "Bibliographic metadata (BIBO)"
 msgstr ""
 
 msgid "Academic Article"
-msgstr ""
+msgstr "Erthygl Academaidd"
 
 msgid "A scholarly academic article, typically published in a journal."
 msgstr ""
 
 msgid "Article"
-msgstr ""
+msgstr "Erthygl"
 
 msgid ""
 "A written composition in prose, usually nonfiction, on a specific topic, "
@@ -3200,13 +3218,13 @@ msgid ""
 msgstr ""
 
 msgid "audio document"
-msgstr ""
+msgstr "dogfen sain"
 
 msgid "An audio document; aka record."
 msgstr ""
 
 msgid "audio-visual document"
-msgstr ""
+msgstr "dogfen clyweledol"
 
 msgid "An audio-visual document; film, video, and so forth."
 msgstr ""
@@ -3218,7 +3236,7 @@ msgid "Draft legislation presented for discussion to a legal body."
 msgstr ""
 
 msgid "Book"
-msgstr ""
+msgstr "Llyfr"
 
 msgid ""
 "A written or printed work of fiction or nonfiction, usually on sheets of "
@@ -3235,13 +3253,13 @@ msgid "Brief"
 msgstr ""
 
 msgid "A written argument submitted to a court."
-msgstr ""
+msgstr "Dadl ysgrifenedig a gyflwynwyd i lys."
 
 msgid "Chapter"
-msgstr ""
+msgstr "Pennod"
 
 msgid "A chapter of a book."
-msgstr ""
+msgstr "Pennod o lyfr."
 
 msgid "Code"
 msgstr ""
@@ -3265,10 +3283,10 @@ msgid "A meeting for consultation or discussion."
 msgstr ""
 
 msgid "Court Reporter"
-msgstr ""
+msgstr "Gohebydd Llys"
 
 msgid "A collection of legal cases."
-msgstr ""
+msgstr "Casgliad o achosion cyfreithiol"
 
 msgid "Document"
 msgstr "Dogfen"
@@ -3299,7 +3317,7 @@ msgid "An edited book."
 msgstr ""
 
 msgid "EMail"
-msgstr ""
+msgstr "EBost"
 
 msgid ""
 "A written communication addressed to a person or organization and "
@@ -3330,7 +3348,7 @@ msgid "A document that presents visual or diagrammatic information."
 msgstr ""
 
 msgid "Interview"
-msgstr ""
+msgstr "Cyfweliad"
 
 msgid "A formalized discussion between two or more people."
 msgstr ""
@@ -3350,13 +3368,13 @@ msgid "A periodical of scholarly journal Articles."
 msgstr ""
 
 msgid "Legal Case Document"
-msgstr ""
+msgstr "Dogfen Achos Cyfreithiol"
 
 msgid "A document accompanying a legal case."
 msgstr ""
 
 msgid "Decision"
-msgstr ""
+msgstr "Penderfyniad"
 
 msgid ""
 "A document containing an authoritative determination (as a decree or "
@@ -3364,7 +3382,7 @@ msgid ""
 msgstr ""
 
 msgid "Legal Document"
-msgstr ""
+msgstr "Dogfen Gyfreithiol"
 
 msgid "A legal document; for example, a court decision, a brief, and so forth."
 msgstr ""
@@ -3376,7 +3394,7 @@ msgid "A legal document proposing or enacting a law or a group of laws."
 msgstr ""
 
 msgid "Letter"
-msgstr ""
+msgstr "Llythyr"
 
 msgid ""
 "A written or printed communication addressed to a person or organization and "
@@ -3401,7 +3419,7 @@ msgid "A small reference book, especially one giving instructions."
 msgstr ""
 
 msgid "Manuscript"
-msgstr ""
+msgstr "Llawysgrif"
 
 msgid ""
 "An unpublished Document, which may also be submitted to a publisher for "
@@ -3409,7 +3427,7 @@ msgid ""
 msgstr ""
 
 msgid "Map"
-msgstr ""
+msgstr "Map"
 
 msgid "A graphical depiction of geographic features."
 msgstr ""
@@ -3421,7 +3439,7 @@ msgid "A loose, thematic, collection of Documents, often Books."
 msgstr ""
 
 msgid "Newspaper"
-msgstr ""
+msgstr "Papur newydd"
 
 msgid ""
 "A periodical of documents, usually issued daily or weekly, containing "
@@ -3429,10 +3447,10 @@ msgid ""
 msgstr ""
 
 msgid "Note"
-msgstr ""
+msgstr "Nodyn"
 
 msgid "Notes or annotations about a resource."
-msgstr ""
+msgstr "Nodiadau neu anodiadau am adnodd."
 
 msgid "Patent"
 msgstr ""
@@ -3444,10 +3462,10 @@ msgid ""
 msgstr ""
 
 msgid "Performance"
-msgstr ""
+msgstr "Perfformiad"
 
 msgid "A public performance."
-msgstr ""
+msgstr "Perfformiad cyhoeddus."
 
 msgid "Periodical"
 msgstr ""
@@ -3548,7 +3566,7 @@ msgid ""
 msgstr ""
 
 msgid "Website"
-msgstr ""
+msgstr "Gwefan"
 
 msgid "A group of Webpages accessible on the Web."
 msgstr ""
@@ -3594,7 +3612,7 @@ msgid "Relates a document to another document that is cite"
 msgstr ""
 
 msgid "list of contributors"
-msgstr ""
+msgstr "rhestr cyfranogwyr"
 
 msgid ""
 "An ordered list of contributors. Normally, this list is seen as a priority "
@@ -3602,7 +3620,7 @@ msgid ""
 msgstr ""
 
 msgid "court"
-msgstr ""
+msgstr "llys"
 
 msgid ""
 "A court associated with a legal document; for example, that which issues a "
@@ -3616,10 +3634,10 @@ msgid "The thesis degree."
 msgstr ""
 
 msgid "director"
-msgstr ""
+msgstr "cyfarwyddwr"
 
 msgid "A Film director."
-msgstr ""
+msgstr "cyfarwyddwr Ffilm."
 
 msgid "distributor"
 msgstr ""
@@ -3628,7 +3646,7 @@ msgid "Distributor of a document or a collection of documents."
 msgstr ""
 
 msgid "editor"
-msgstr ""
+msgstr "golygydd"
 
 msgid ""
 "A person having managerial and sometimes policy-making responsibility for "
@@ -3637,7 +3655,7 @@ msgid ""
 msgstr ""
 
 msgid "list of editors"
-msgstr ""
+msgstr "rhestr golygyddion"
 
 msgid ""
 "An ordered list of editors. Normally, this list is seen as a priority list "
@@ -3674,7 +3692,7 @@ msgid ""
 msgstr ""
 
 msgid "owner"
-msgstr ""
+msgstr "perchennog"
 
 msgid "Owner of a document or a collection of documents."
 msgstr ""
@@ -3717,16 +3735,16 @@ msgid "reversedBy"
 msgstr ""
 
 msgid "A legal decision that reverses a ruling."
-msgstr ""
+msgstr "Penderfyniad cyfrieithiol sy'n dadwneud rheithiad"
 
 msgid "review of"
-msgstr ""
+msgstr "adolygiad o"
 
 msgid "Relates a review document to a reviewed thing (resource, item, etc.)."
 msgstr ""
 
 msgid "status"
-msgstr ""
+msgstr "statws"
 
 msgid "The publication status of (typically academic) content."
 msgstr ""
@@ -3738,21 +3756,23 @@ msgid ""
 "A legal decision on appeal that takes action on a case (affirming it, "
 "reversing it, etc.)."
 msgstr ""
+"Penderfyniad cyfreithiol ar apêl sy'n cael ei weithredu ar achos (ei "
+"gadarnhau, ei ddadwneud, ayb.)"
 
 msgid "transcript of"
-msgstr ""
+msgstr "trawsysgrif o"
 
 msgid "Relates a document to some transcribed original."
 msgstr ""
 
 msgid "translation of"
-msgstr ""
+msgstr "cyfieithiad o"
 
 msgid "Relates a translated document to the original document."
 msgstr ""
 
 msgid "translator"
-msgstr ""
+msgstr "cyfieithydd"
 
 msgid "A person who translates written document from one language to another."
 msgstr ""
@@ -3796,7 +3816,7 @@ msgid "eanucc13"
 msgstr ""
 
 msgid "edition"
-msgstr ""
+msgstr "argraffiad"
 
 msgid ""
 "The name defining a special edition of a document. Normally its a literal "
@@ -3845,13 +3865,13 @@ msgid ""
 msgstr ""
 
 msgid "number of pages"
-msgstr ""
+msgstr "nifer o dudalennau"
 
 msgid "The number of pages contained in a document"
-msgstr ""
+msgstr "Nifer o dudalennau yn y ddogfen"
 
 msgid "number of volumes"
-msgstr ""
+msgstr "nifer o gyfrolau"
 
 msgid ""
 "The number of volumes contained in a collection of documents (usually a "
@@ -3869,19 +3889,19 @@ msgid "oclcnum"
 msgstr ""
 
 msgid "page end"
-msgstr ""
+msgstr "diwedd y dudalen"
 
 msgid "Ending page number within a continuous page range."
 msgstr ""
 
 msgid "page start"
-msgstr ""
+msgstr "dechrau'r dudalen"
 
 msgid "Starting page number within a continuous page range."
 msgstr ""
 
 msgid "pages"
-msgstr ""
+msgstr "tudalennau"
 
 msgid ""
 "A string of non-contiguous page spans that locate a Document within a "
@@ -3905,13 +3925,13 @@ msgid "A section number"
 msgstr ""
 
 msgid "shortDescription"
-msgstr ""
+msgstr "Disgrifiad byr"
 
 msgid "short title"
-msgstr ""
+msgstr "teitl byr"
 
 msgid "The abbreviation of a title."
-msgstr ""
+msgstr "Talfyriad teitl"
 
 msgid "sici"
 msgstr ""
@@ -3932,13 +3952,13 @@ msgid "Universal Resource Identifier of a document"
 msgstr ""
 
 msgid "volume"
-msgstr ""
+msgstr "cyfrol"
 
 msgid "A volume number"
-msgstr ""
+msgstr "Rhif cyfrol"
 
 msgid "Friend of a Friend"
-msgstr ""
+msgstr "Ffrind i Ffrind"
 
 msgid "Relationships between people and organizations (FOAF)"
 msgstr ""
@@ -3955,34 +3975,34 @@ msgid "Person"
 msgstr "Person"
 
 msgid "A person."
-msgstr ""
+msgstr "Person."
 
 msgid "An agent (eg. person, group, software or physical artifact)."
 msgstr ""
 
 msgid "A document."
-msgstr ""
+msgstr "Dogfen."
 
 msgid "Organization"
 msgstr ""
 
 msgid "An organization."
-msgstr ""
+msgstr "Sefydliad."
 
 msgid "Group"
-msgstr ""
+msgstr "Grŵp"
 
 msgid "A class of Agents."
 msgstr ""
 
 msgid "Project"
-msgstr ""
+msgstr "Prosiect"
 
 msgid "A project (a collective endeavour of some kind)."
 msgstr ""
 
 msgid "An image."
-msgstr ""
+msgstr "Delwedd."
 
 msgid "PersonalProfileDocument"
 msgstr ""
@@ -3991,10 +4011,10 @@ msgid "A personal profile RDF document."
 msgstr ""
 
 msgid "Online Account"
-msgstr ""
+msgstr "Cyfrif Ar-lein"
 
 msgid "An online account."
-msgstr ""
+msgstr "Cyfrif ar-lein."
 
 msgid "Online Gaming Account"
 msgstr ""
@@ -4009,10 +4029,10 @@ msgid "An online e-commerce account."
 msgstr ""
 
 msgid "Online Chat Account"
-msgstr ""
+msgstr "Cyfrif Sgwrs Ar-lein"
 
 msgid "An online chat account."
-msgstr ""
+msgstr "Cyfrif sgwrs ar-lein."
 
 msgid "personal mailbox"
 msgstr ""
@@ -4033,7 +4053,7 @@ msgid ""
 msgstr ""
 
 msgid "gender"
-msgstr ""
+msgstr "rhywedd"
 
 msgid ""
 "The gender of this Agent (typically but not necessarily 'male' or 'female')."
@@ -4067,13 +4087,13 @@ msgid ""
 msgstr ""
 
 msgid "title"
-msgstr ""
+msgstr "teitl"
 
 msgid "Title (Mr, Mrs, Ms, Dr. etc)"
-msgstr ""
+msgstr "Teitl (Mr, Mrs, Ms, Athro, ayb.)"
 
 msgid "nickname"
-msgstr ""
+msgstr "llysenw"
 
 msgid ""
 "A short informal nickname characterising an agent (includes login "
@@ -4117,46 +4137,46 @@ msgid "An MSN chat ID"
 msgstr ""
 
 msgid "name"
-msgstr ""
+msgstr "enw"
 
 msgid "A name for some thing."
-msgstr ""
+msgstr "Enw am rhyw beth."
 
 msgid "firstName"
-msgstr ""
+msgstr "Enw cyntaf"
 
 msgid "The first name of a person."
-msgstr ""
+msgstr "Enw cyntaf person."
 
 msgid "lastName"
-msgstr ""
+msgstr "Enw olaf"
 
 msgid "The last name of a person."
-msgstr ""
+msgstr "Enw olaf person."
 
 msgid "Given name"
-msgstr ""
+msgstr "Enw a roddwyd"
 
 msgid "The given name of some person."
-msgstr ""
+msgstr "Enw a roddwyd ar berson."
 
 msgid "Surname"
 msgstr "Enw Defnyddiwr"
 
 msgid "The surname of some person."
-msgstr ""
+msgstr "Cyfenw person."
 
 msgid "family_name"
-msgstr ""
+msgstr "enw_teulu"
 
 msgid "The family name of some person."
-msgstr ""
+msgstr "Enw teulu person."
 
 msgid "familyName"
-msgstr ""
+msgstr "Enw teulu"
 
 msgid "phone"
-msgstr ""
+msgstr "ffôn"
 
 msgid ""
 "A phone,  specified using fully qualified tel: URI scheme (refs: http://www."
@@ -4207,7 +4227,7 @@ msgid "An agent that  made this thing."
 msgstr ""
 
 msgid "image"
-msgstr ""
+msgstr "delwedd"
 
 msgid ""
 "An image that can be used to represent some thing (ie. those depictions "
@@ -4216,10 +4236,10 @@ msgid ""
 msgstr ""
 
 msgid "depiction"
-msgstr ""
+msgstr "darluniad"
 
 msgid "A depiction of some thing."
-msgstr ""
+msgstr "Darluniad o rhyw beth."
 
 msgid "depicts"
 msgstr ""
@@ -4228,7 +4248,7 @@ msgid "A thing depicted in this representation."
 msgstr ""
 
 msgid "thumbnail"
-msgstr ""
+msgstr "'thumbnail'"
 
 msgid "A derived thumbnail image."
 msgstr ""
@@ -4270,7 +4290,7 @@ msgid ""
 msgstr ""
 
 msgid "interest"
-msgstr ""
+msgstr "diddordeb"
 
 msgid "A page about a topic of interest to this person."
 msgstr ""
@@ -4300,7 +4320,7 @@ msgid "A project this person has previously worked on."
 msgstr ""
 
 msgid "funded by"
-msgstr ""
+msgstr "ariannwyd gan"
 
 msgid "An organization funding a project or person."
 msgstr ""
@@ -4343,10 +4363,10 @@ msgid "theme"
 msgstr "themâu"
 
 msgid "A theme."
-msgstr ""
+msgstr "Thema."
 
 msgid "account"
-msgstr ""
+msgstr "cyfrif"
 
 msgid "Indicates an account held by this agent."
 msgstr ""
@@ -4358,7 +4378,7 @@ msgid "Indicates a homepage of the service provide for this online account."
 msgstr ""
 
 msgid "account name"
-msgstr ""
+msgstr "enw cyfrif"
 
 msgid "Indicates the name (identifier) associated with this online account."
 msgstr ""
@@ -4376,14 +4396,14 @@ msgid "Indicates the class of individuals that are a member of a Group"
 msgstr ""
 
 msgid "birthday"
-msgstr ""
+msgstr "penblwydd"
 
 msgid ""
 "The birthday of this Agent, represented in mm-dd string form, eg. '12-31'."
 msgstr ""
 
 msgid "age"
-msgstr ""
+msgstr "oed"
 
 msgid "The age in years of some agent."
 msgstr ""
