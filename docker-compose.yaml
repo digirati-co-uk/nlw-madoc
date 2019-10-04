@@ -89,7 +89,7 @@ services:
 
   madoc-indexer:
     container_name: madoc-nlw-search-indexer
-    image: digirati/madoc-indexer:${FOUNDA_INDEXER_VERSION:-c26e42ad8b8e721d20d254e5214679498868518d}
+    image: digirati/madoc-indexer:${FOUNDA_INDEXER_VERSION:-6d29685681be404861aa745a39ec3b21a5fb13c2}
     environment:
       - WORKERS=2
       - search_annotation_index=${FOUNDA_ANNOTATION_INDEX:-jane-annotations}
