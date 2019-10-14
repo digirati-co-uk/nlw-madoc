@@ -16,11 +16,18 @@ services:
       - OMEKA__MAIN_SITE_DOMAIN=${MAIN_SITE_DOMAIN}
       - OMEKA__ELUCIDATE_URL=${ELUCIDATE_URL}
       - OMEKA__ELUCIDATE_PUBLIC_DOMAIN=${ELUCIDATE_PUBLIC_DOMAIN}
+      # 1.2.x additions.
+      - OMEKA__INTERNAL_URL=${OMEKA_INTERNAL_URL}
+      - OMEKA__ANNOTATION_INDEXER=${ANNOTATION_INDEXER}
+      - OMEKA__SEARCH_ELASTICSEARCH=madoc-nlw-elasticsearch:9200
+      - OMEKA__ANNOTATION_ES_INDEX=${FOUNDA_ANNOTATION_INDEX:-jane-annotations}
+      - OMEKA__SEARCH_INDEXER=madoc-nlw-search-indexer:8000
     ports:
       - "8898:80"
     volumes:
-      - ./nlw-madoc-theme:/srv/omeka/themes/nlw-madoc-theme:Z
+      - ./madoc-nlw-theme:/srv/omeka/themes/madoc-nlw-theme:Z
       - ./translations/s:/srv/omeka/translations/s:Z
+      - ./var/files:/srv/omeka/files:Z
 
   mysql:
     container_name: madoc-nlw-database
@@ -42,6 +49,9 @@ services:
     environment:
       - DATABASE_USER=postgres
       - CATALINA_OPTS=-Ddb.url=jdbc:postgresql://database:5432/annotations -Ddb.user="postgres" -Ddb.password=$MYSQL_PASSWORD
+      # 1.2.x additions
+      - BASE_HOST=${ELUCIDATE_BASE_HOST}
+      - BASE_PORT=${ELUCIDATE_BASE_PORT}
     ports:
       - 8899:8080
   annotation-database:
@@ -49,3 +59,47 @@ services:
     image: "garyttierneydi/elucidate-database:1.4.3-SNAPSHOT"
     environment:
       - POSTGRES_DB=annotations
+
+  # 1.2.x additions
+  elasticsearch:
+    container_name: madoc-nlw-elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.7.2
+    environment:
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "discovery.type=single-node"
+    volumes:
+      - ./var/es:/usr/share/elasticsearch/data
+    ports:
+      - 9203:9200
+      - 9204:9201
+
+  search-founda:
+    image: digirati/jane-founda:${FOUNDA_VERSION:-d0e7610dc15073e85fce20ee42215e192b16907b}
+    environment:
+      - WORKERS=2
+      - search_annotation_index=${FOUNDA_ANNOTATION_INDEX:-jane-annotations}
+      - search_elasticsearch_base=madoc-nlw-elasticsearch
+      - search_elasticsearch_port=9200
+      - search_ssl_boolean=${FOUNDA_SEARCH_SSL:-false}
+    ports:
+      - 8103:8000
+    links:
+      - elasticsearch
+
+  madoc-indexer:
+    container_name: madoc-nlw-search-indexer
+    image: digirati/madoc-indexer:${FOUNDA_INDEXER_VERSION:-6d29685681be404861aa745a39ec3b21a5fb13c2}
+    environment:
+      - WORKERS=2
+      - search_annotation_index=${FOUNDA_ANNOTATION_INDEX:-jane-annotations}
+      - search_elasticsearch_base=madoc-nlw-elasticsearch
+      - search_elasticsearch_port=9200
+      - search_ssl_boolean=${FOUNDA_SEARCH_SSL:-false}
+    ports:
+      - 8104:8000
+    links:
+      - omeka-ecosystem
+      - annotation-server
+      - elasticsearch
+      - search-founda
