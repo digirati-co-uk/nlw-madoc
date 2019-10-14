@@ -162,7 +162,7 @@ msgid "translations"
 msgstr ""
 
 msgid "Key"
-msgstr ""
+msgstr "Allwedd"
 
 msgid "Message"
 msgstr ""
@@ -412,7 +412,7 @@ msgid "Successfully logged in"
 msgstr "Wedi mewngofnodi yn llwyddiannus"
 
 msgid "Email or password is invalid"
-msgstr "Nid yw'r ebost neu'r cyfrinair yn ddilys."
+msgstr "Nid yw'r ebost neu'r cyfrinair yn ddilys"
 
 msgid "Mark %s as incomplete"
 msgstr ""
@@ -599,7 +599,7 @@ msgid "Choose site..."
 msgstr ""
 
 msgid "File"
-msgstr ""
+msgstr "Ffeil"
 
 msgid "A file containing Capture Model definitions"
 msgstr ""
