@@ -1,0 +1,800 @@
+
+body {
+    background-color: #d7dcdc !important;
+    color: #484848;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px !important;
+    line-height: 1.42857143;
+    overflow-x: hidden;
+    margin-top: 0px !important; /* override settings in style.css*/
+}
+
+/* xs/sm view - constent background 'frame' */
+@media (max-width: 991px) {
+    body {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+/* Wider container to match all branded site widths - duplicated in style.css until removed */
+
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+    .container, .llgc_branded_frame_content {
+        width: 98% !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+    .container, .llgc_branded_frame_content {
+        min-width: 85em !important;
+        /*        width: 75% !important;*/
+    }
+}
+
+@media (min-width: 1920px) {
+    .container, .llgc_branded_frame_content {
+        min-width: 85em !important;
+        width: 75% !important;
+    }
+}
+
+
+/**** HEADER ****/
+
+#llgc_branded_frame_header {
+    min-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*margin-left: -25px !important;*/
+    /*margin-right: -25px !important;*/
+    padding-left: 0px !important;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #llgc_branded_frame_header{
+        margin-bottom: 0 !important;
+    }
+}
+
+
+
+ul.llgc_topmenu_container, ol.llgc_topmenu_container {
+    list-style: none !important;
+}
+.paul {
+    height:20px;
+}
+#llgc_header_logo {
+    float: left !important;
+}
+
+#llgc_xs_menu_toggle {
+    float: right !important;
+    text-align: center;
+}
+
+/***** NLW Logo *****/
+
+@media (max-width: 767px) {
+    #llgc_branded_frame_logo {
+        height: auto;
+        width: 240px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #llgc_branded_frame_logo {
+        height: 36px;
+        width: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    #llgc_branded_frame_logo {
+        height: 48px;
+        width: auto;
+    }
+}
+
+/**** XS top menu ****/
+
+@media (max-width: 768px) {
+    .llgc_topmenu_toggle {
+        float: right;
+    }
+}
+
+/*** XS Top right menu - nav bars ***/
+
+.llgc_branded_frame_header_nav_xs {
+    font-size: 2em;
+}
+
+
+/** XS Top right menu - core sites - tithe maps**/
+.llgc_branded_frame_xsmenu_places {
+    background: #c69214;
+    color: #fff;
+}
+
+/** XS Top right menu - core sites - newspapers**/
+.llgc_branded_frame_xsmenu_wno {
+    background: #128085;
+    color: #fff;
+}
+
+/** XS Top right menu - core sites - journals**/
+.llgc_branded_frame_xsmenu_wjo {
+    background: #30c2aa;
+    color: #fff;
+}
+
+/** XS Top right menu - core sites - catalogue**/
+.llgc_branded_frame_xsmenu_cat {
+    background: #bf4da5;
+    color: #fff;
+}
+
+/** XS Top right menu - core sites - more resources**/
+.llgc_branded_frame_xsmenu_more {
+    background: #e38425;
+    color: #fff;
+}
+
+/***** SM Top right menu - Branded frame *****/
+
+@media (min-width: 768px) and (max-width: 800px) {
+    .llgc_topmenu_container {
+        font-size: 0.72em !important;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 992px) {
+    .llgc_topmenu_container {
+        font-size: 0.8em !important;
+    }
+}
+
+/***** MD+ Top right menu - Branded frame *****/
+
+.llgc_topmenu_container {
+    padding: 0px;
+    display: flex;
+    float: right;
+    margin-top: 0;
+    /*  margin-right: 10px; */
+    font-size: 0.98em;
+    z-index: 9998; /* tooltips on top */
+}
+
+/****** Common styling across all MD+ topmenu list items ******/
+
+li[class^="llgc_topmenu_"] {
+    position: relative;
+    width: auto;
+}
+
+li[class^="llgc_topmenu_"] a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-weight: normal !important;
+    white-space: nowrap;
+}
+
+
+li[class^="llgc_topmenu_"] a:hover {
+    color: #fff !important;
+}
+
+
+/****** MD+ Top right menu - Lleoedd - Places ******/
+
+.llgc_topmenu_places {
+    background: #c69214;
+    margin: 10px;
+}
+
+.llgc_topmenu_places:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #c69214;
+    transform-origin: bottom;
+    transform: skewX(-50deg);
+}
+
+.llgc_topmenu_places a {
+    padding: 1px 10px 1px 12px;
+    color: #fff;
+}
+
+.llgc_topmenu_places .tooltip {
+    opacity: 1 !important;
+}
+
+.llgc_topmenu_places_tooltip + .tooltip > .tooltip-inner {
+    background-color: #c69214;
+}
+
+.llgc_topmenu_places_tooltip + .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #c69214;
+}
+
+
+/****** MD+ Top right menu - Papurau Newydd - Newspapers ******/
+
+.llgc_topmenu_wno {
+    background: #128085;
+    margin: 10px 0 10px 8px;
+    transform: skew(-50deg);
+    z-index: 3;
+}
+
+.llgc_topmenu_wno a {
+    transform: skew(50deg);
+    padding: 1px 18px 1px 16px;
+}
+
+.llgc_topmenu_wno .tooltip {
+    left: 52px !important;
+    opacity: 1 !important;
+}
+
+.llgc_topmenu_wno_tooltip + .tooltip > .tooltip-inner {
+    background-color: #128085;
+    transform: skew(50deg);
+    width: 110px;
+}
+
+.llgc_topmenu_wno_tooltip + .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #128085;
+    left: 11% !important;
+    transform: skew(50deg);
+}
+
+/****** MD+ Top right menu - Cylchgronau - Journals ******/
+
+.llgc_topmenu_wjo {
+    background: #30c2aa;
+    margin: 10px 0 10px 6px;
+    transform: skew(-50deg);
+    z-index: 4;
+
+}
+
+.llgc_topmenu_wjo a {
+    padding: 1px 18px 1px 16px;
+    transform: skew(50deg);
+}
+
+.llgc_topmenu_wjo .tooltip {
+    left: 43px !important;
+    opacity: 1 !important;
+}
+
+.llgc_topmenu_wjo_tooltip + .tooltip > .tooltip-inner {
+    background-color: #30c2aa;
+    transform: skew(50deg);
+    width: 87px;
+}
+
+.llgc_topmenu_wjo_tooltip + .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #30c2aa;
+    left: 9% !important;
+    transform: skew(50deg);
+}
+
+/****** MD+ Top right menu - Catalog - Catalogue (Primo) ******/
+
+.llgc_topmenu_cat {
+    background: #bf4da5;
+    margin: 10px 8px 10px 6px;
+    transform: skew(-50deg);
+    z-index: 11;
+}
+
+.llgc_topmenu_cat a {
+    padding: 1px 18px 1px 16px;
+    transform: skew(50deg);
+}
+
+.llgc_topmenu_cat .tooltip {
+    left: 63px !important;
+    opacity: 1 !important;
+}
+
+.llgc_topmenu_cat_tooltip + .tooltip > .tooltip-inner {
+    background-color: #bf4da5;
+    transform: skew(50deg);
+    width: 87px;
+}
+
+.llgc_topmenu_cat_tooltip + .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #bf4da5;
+    left: -5% !important;
+    transform: skew(50deg);
+}
+
+/****** MD+ Top right menu - More Resources ******/
+
+.llgc_topmenu_more {
+    background: #e38425;
+    margin: 10px 0px 10px 10px;
+}
+
+.llgc_topmenu_more:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #e38425;
+    transform-origin: top;
+    transform: skewX(-50deg);
+}
+
+.llgc_topmenu_more a {
+    padding: 1px 14px 1px 6px;
+}
+
+.llgc_topmenu_more .tooltip {
+    opacity: 1 !important;
+}
+
+.llgc_topmenu_more_tooltip + .tooltip > .tooltip-inner {
+    background-color: #e38425;
+}
+
+.llgc_topmenu_more_tooltip + .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #e38425;
+}
+
+/***** MD+ Top right menu - language switch button *****/
+
+.llgc_topmenu_lang {
+    margin-top: 11px;
+}
+
+.llgc_topmenu_lang a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #000 !important;
+    padding: 0 8px 0 12px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .llgc_topmenu_lang a{
+        padding: 0 5px 0 5px !important;
+    }
+}
+
+/**** CONTENTS CONTAINER ****/
+
+div.llgc_branded_frame_content {
+    background-color: #fff;
+}
+
+/**** FOOTER ****/
+
+/***** Footer branded frame styling *****/
+
+.llgc_branded_frame_footer {
+    padding: 0;
+    border-top: 1px dashed #999999;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+.llgc_branded_frame_footer_smicons img {
+    width: 24px;
+    height: 24px;
+}
+
+.llgc_branded_frame_footer_linksrow {
+    padding-top: 10px;
+    height: 2.9em;
+    /*   margin-right: -25px;
+       margin-left: -25px;*/
+}
+
+.row.llgc_branded_frame_footer_inforow {
+    margin-top: 0px !important;
+    margin-left: 6px;
+}
+
+.llgc_branded_frame_footer_inforow {
+    border-top: 1px solid #999999;
+}
+
+/*** FOOTER partner logos styling ***/
+
+div.llgc_branded_frame_footer_logos {
+    float: right !important;
+    text-align: right;
+/*    margin-top: 7px;*/
+/*    margin-right: -20px !important;*/
+    padding-right: 0px !important;
+}
+
+#llgc_branded_frame_footer_logos img,
+#llgc_branded_frame_footer_smicons img {
+    margin: 10px 0;
+}
+
+.llgc_branded_frame_footer_logos img {
+    padding: 2px;
+}
+
+/* styling for when there is just the WG logo */
+.llgc_branded_frame_logo_default img {
+    max-width: 164px;
+    margin-right: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .llgc_branded_frame_logo_default img {
+        max-width: 164px;
+        margin-right: -10px;
+    }
+}
+
+
+/* styling for when there are multiple partner logos */
+.llgc_branded_frame_footer_logo-wg {
+    height: 4.5em !important;
+    vertical-align: top;
+}
+
+.llgc_branded_frame_footer_logo-wg-www {
+    height: 4.5em !important;
+    margin-bottom: 0.6em;
+}
+
+.llgc_branded_frame_footer_logo-jisc {
+    height: 4.5em !important;
+}
+
+.llgc_branded_frame_footer_logo-europeana {
+    height: 9em !important;
+}
+
+/* XS view - need white bg on black logo */
+    @media (max-width: 767px) {
+        .llgc_branded_frame_footer_logo-europeana {
+                background: #ffffff;
+                border-radius: 6px;
+        }
+    }
+
+.llgc_branded_frame_footer_logo-erdf {
+    height: 9.6em !important;
+}
+
+.llgc_branded_frame_footer_logo-hlf {
+    height: 4.5em !important;
+}
+
+.llgc_branded_frame_footer_logo-arcw {
+    height: 4.5em !important;
+}
+
+.llgc_branded_frame_footer_logo-cynefin {
+    height: 4.5em !important;
+}
+
+.llgc_branded_frame_footer_logo-tisc {
+    height: 4.5em !important;
+    margin-right: 0.6em;
+}
+
+.llgc_branded_frame_footer_logo-cyberessentials {
+    height: 4.5em !important;
+}
+
+.llgc_branded_frame_footer_logo-cse {
+    height: 14em !important;
+    margin-top: 0.6em;
+    background-color: #fff;
+    border-radius: 0.2em;
+}
+
+@media (max-width: 767px) {
+    .llgc_branded_frame_footer_logo-cse {
+        height: 10em !important;
+        /* float: right;*/
+        background-color: #fff;
+        border-radius: 0.2em;
+    }
+
+    .llgc_branded_frame_footer_logo-cyberessentials {
+        max-width: 140px;
+    }
+
+    .llgc_branded_frame_footer_logo-tisc {
+        max-width: 140px;
+    }
+
+    .llgc_branded_frame_footer_logo-wg {
+        max-width: 180px;
+    }
+}
+
+/*** FOOTER opening times styling ***/
+#llgc_branded_frame_footer_opening_times {
+    margin-left: -5px;
+    float: left !important;
+}
+
+#llgc_branded_frame_footer_address,
+#llgc_branded_frame_footer_opening_times {
+/*    margin-top: 7px;*/
+    font-size: 0.9em;
+}
+
+#llgc_branded_frame_footer_address span,
+#llgc_branded_frame_footer_opening_times span {
+    display: block;
+}
+
+/* Subscription box styling */
+
+.llgc_branded_frame_footer_subscribe {
+    /*    padding-top: 0.6em;*/
+}
+
+#llgc_branded_frame_footer_subscribe {
+/*    padding-top: 0.6em;*/
+}
+
+div#mc_embed_signup {
+    background-color: rgb(227, 132, 37) !important;
+    color: #fff;
+    border-radius: 6px;
+}
+
+div#mc_embed_signup a {
+    color: #fff;
+}
+
+div#mc_embed_signup a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+#mc_embed_signup input.email {
+    width: 200px !important;
+    height: 28px !important;
+}
+
+#mc_embed_signup p {
+    padding-top: 0.6em;
+    font-size: 0.8em;
+}
+
+#mc_embed_signup .button {
+    background-color: #777 !important;
+    line-height: 26px !important;
+    height: 26px !important;
+}
+
+#mc_embed_signup label {
+    font-size: 16px !important;
+    padding-bottom: 6px !important;
+    font-weight: 400 !important;
+}
+
+#mc_embed_signup input.email {
+    font-size: 13px !important;
+    font-style: italic;
+}
+
+/*** XS footer styling ***/
+
+@media (max-width: 390px) {
+    #llgc_branded_frame_footer_subscribe {
+        width: 90%;
+        padding: 1em 0 0 2em !important;
+        float: left !important;
+    }
+}
+
+
+/* specific styling for screens under 502px with footer with site specific extra links*/
+@media (max-width: 502px) {
+    .llgc_branded_frame_footer_linksrow {
+        min-height: 7em !important;
+        font-size: 0.99em !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .llgc_branded_frame_footer {
+        background-color: #555;
+        color: #fff;
+        font-size: 1.1em;
+        margin: 0;
+    }
+
+    .llgc_branded_frame_footer a {
+        color: #fff !important;
+    }
+
+    .llgc_branded_frame_footer_linksrow {
+        margin: 0;
+        min-height: 6em;
+        text-align: center;
+    }
+
+    .llgc_branded_frame_footer_smicons {
+        text-align: center;
+
+    }
+
+    .llgc_branded_frame_footer_smicons img {
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .row.llgc_branded_frame_footer_inforow {
+        font-size: 1.1em;
+    }
+
+    #llgc_branded_frame_footer_subscribe {
+        float: right;
+        padding-right: 10px !important;
+        padding-top: 1.2em;
+    }
+
+    div.llgc_branded_frame_footer_logos {
+        padding-bottom: 1em;
+        text-align: center !important;
+    }
+
+    #llgc_branded_frame_footer_opening_times {
+        margin-left: 10px;
+    }
+
+    /* Subscription box */
+    div#mc_embed_signup {
+        border: 1px solid rgb(227, 132, 37) !important;
+        background-color: #555 !important;
+    }
+
+    #mc_embed_signup input.email {
+        width: 260px !important;
+        height: 40px !important;
+    }
+
+    #mc_embed_signup .button {
+        width: 260px !important;
+        background-color: rgb(227, 132, 37) !important;
+        font-size: 0.96em !important;
+        /* padding:  0.6em !important; */
+        height: 30px !important;
+        /* line-height: 1.2em !important; */
+    }
+
+    #mc_embed_signup p {
+        padding-top: 1em;
+        font-size: 0.7em;
+    }
+
+}
+
+/*** SM footer styling ***/
+@media only screen /* adding only query */
+and (min-width: 320px)
+and (max-width: 390px) {
+    .row.llgc_branded_frame_footer_inforow {
+        margin-top: 14px !important;
+    }
+}
+@media only screen /* adding only query */
+and (min-width: 390px)
+and (max-width: 502px) {
+    .row.llgc_branded_frame_footer_inforow {
+        margin: 0 !important;
+    }
+}
+@media only screen /* adding only query */
+and (min-width: 502px)
+and (max-width: 768px) {
+    .row.llgc_branded_frame_footer_inforow {
+        margin-top: 14px !important;
+    }
+}
+
+
+@media only screen /* adding only query */
+and (min-width: 768px)
+and (max-width: 1199px){
+
+    .row.llgc_branded_frame_footer_inforow {
+        margin: 0 !important;
+        font-size: 1.1em;
+    }
+
+    .llgc_branded_frame_footer_smicons{
+/*        margin-top: 1em !important;*/
+    }
+
+    /* Subscription box */
+    #llgc_branded_frame_footer_subscribe {
+        float: right;
+        padding-right: 5px;
+    }
+
+    div.llgc_branded_frame_footer_logos {
+        text-align: right;
+        margin-top: 15px;
+/*        padding-right: 20px !important;*/
+        float: right;
+    }
+
+    .llgc_branded_frame_footer_logos img {
+        max-width: 160px;
+    }
+
+    #llgc_branded_frame_footer_smicons {
+        width: 30% !important;
+        float: left !important;
+    }
+    #llgc_branded_frame_footer_links{
+        width: 70% !important;
+        float: left !important;
+    }
+
+}
+
+#llgc_branded_frame_footer_smicons{
+    bottom: 11px;
+}
+
+@media only screen /* adding only query */
+and (max-width: 768px){
+    .llgc_branded_frame_logo_whiteBackground{
+        background: white;
+    }
+    #llgc_branded_frame_logo_container2{
+        padding-top: 0.2em;
+    }
+}
+
+
+/*** MD footer styling ***/
+
+@media (max-width: 1199px) {
+
+    /* Subscription box */
+    #llgc_branded_frame_footer_subscribe {
+        float: left;
+        padding-right: 5px;
+    }
+}
+
+::placeholder {
+    color: grey !important;
+    opacity: 1; /* Firefox */
+}
