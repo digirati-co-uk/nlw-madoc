@@ -25,7 +25,7 @@ services:
     ports:
       - "8898:80"
     volumes:
-      - ./madoc-nlw-theme:/srv/omeka/themes/madoc-nlw-theme:Z
+      - ./nlw-madoc-theme:/srv/omeka/themes/nlw-madoc-theme:Z
       - ./translations/s:/srv/omeka/translations/s:Z
       - ./var/files:/srv/omeka/files:Z
 
