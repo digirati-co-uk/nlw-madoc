@@ -1,6 +1,9 @@
 database/sensitive/*.sql
 !database/sensitive/.gitignore
-./nlw-madoc-migration
+nlw-madoc-migration
 var/es
 var/files
 !var/.gitkeep
+nlw-madoc-theme/library-frame-raw.css
+nlw-madoc-theme/library-frame-raw.html
+translations/library.tmx
