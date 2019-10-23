@@ -12,26 +12,11 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : n==6 ? 4 : 5);\n"
 "Language: cy\n"
 
-msgid "View all collections"
-msgstr "Gweld pob casgliad"
-
 msgid "Home"
 msgstr "Hafan"
 
-msgid "View All Items"
-msgstr "Gweld Pob Eitem"
-
-msgid "About Crowd NLW"
+msgid "About NLW Crowd "
 msgstr "Am Torf LlGC"
 
 msgid "Projects"
 msgstr "Prosiectau"
-
-msgid "Help"
-msgstr "Cymorth"
-
-msgid "Contact Us"
-msgstr "Cysylltu"
-
-msgid "Privacy"
-msgstr "Preifatrwydd"

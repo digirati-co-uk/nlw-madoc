@@ -12,20 +12,20 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : n==6 ? 4 : 5);\n"
 "Language: cy\n"
 
-msgid "View all collections"
-msgstr "Gweld pob casgliad"
-
 msgid "Home"
 msgstr "Hafan"
 
-msgid "View All Items"
-msgstr "Gweld Pob Eitem"
+msgid "Blaenau Ffestiniog  Project"
+msgstr "Prosiect Blaenau Ffestiniog"
 
-msgid "About Crowd NLW"
-msgstr "Am Torf LlGC"
+msgid "View the Photos"
+msgstr "Gweld y Ffotograffau"
 
 msgid "Projects"
-msgstr "Prosiectau"
+msgstr "Projectau"
+
+msgid "About NLW Crowd"
+msgstr "Am Torf LlGC"
 
 msgid "Help"
 msgstr "Cymorth"
