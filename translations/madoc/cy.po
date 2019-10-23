@@ -355,7 +355,7 @@ msgid "A pre-defined template for user profile creation."
 msgstr ""
 
 msgid "You have successfully logged in"
-msgstr ""
+msgstr "You have successfully logged in"
 
 msgid "Your email or password is invalid"
 msgstr ""
