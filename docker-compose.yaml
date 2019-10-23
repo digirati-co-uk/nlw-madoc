@@ -26,6 +26,7 @@ services:
       - "8898:80"
     volumes:
       - ./nlw-madoc-theme:/srv/omeka/themes/nlw-madoc-theme:Z
+      - ./nlw-pcw-madoc-theme:/srv/omeka/themes/nlw-pcw-madoc-theme:Z
       - ./translations/s:/srv/omeka/translations/s:Z
       - ./var/files:/srv/omeka/files:Z
 
