@@ -450,10 +450,10 @@ msgid "Something went wrong."
 msgstr ""
 
 msgid "Successfully created your password. Please log in."
-msgstr "Wedi creu cyfrinair yn llwyddiannus.  Mewngofnodwch."
+msgstr "Wedi creu cyfrinair.  Mewngofnodwch os gwelwch yn dda."
 
 msgid "Password creation unsuccessful"
-msgstr "Creu cyfrinair yn aflwyddiannus"
+msgstr "Aflwyddiannus yn creu cyfrinair"
 
 msgid "Bookmarked images"
 msgstr ""
