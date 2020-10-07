@@ -7,7 +7,7 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.4.1\n"
 "Last-Translator: \n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n==3 ? "
 "3 : n==6 ? 4 : 5);\n"
@@ -194,6 +194,15 @@ msgstr ""
 msgid "Global translations"
 msgstr ""
 
+msgid "view all images"
+msgstr ""
+
+msgid "Previous Image"
+msgstr "Delwedd flaenorol"
+
+msgid "Next Image"
+msgstr "Delwedd nesaf"
+
 msgid "Flag as inappropriate"
 msgstr "Fflagio fel anaddas"
 
@@ -231,13 +240,16 @@ msgid "View activity"
 msgstr ""
 
 msgid "All collections"
-msgstr ""
+msgstr "Pob casgliad"
 
 msgid "Image"
 msgstr "Delwedd"
 
 msgid "Mark as complete"
 msgstr "Wedi ei gwblhau"
+
+msgid "This page needs more work"
+msgstr ""
 
 msgid "Is this page complete?"
 msgstr "Ydi'r dudalen hon wedi'i chwblhau?"
@@ -312,6 +324,20 @@ msgstr ""
 msgid "A full URL to an external elucidate to use for this site"
 msgstr ""
 
+msgid "Annotation studio version"
+msgstr ""
+
+msgid ""
+"The version of the Javascript to use. NOTE: Older versions may not work with "
+"this module."
+msgstr ""
+
+msgid "Debug mode"
+msgstr ""
+
+msgid "This should never be run in production and is for testing only."
+msgstr ""
+
 msgid "Use Open Seadragon as the viewer"
 msgstr ""
 
@@ -345,6 +371,45 @@ msgstr ""
 msgid "Capture models"
 msgstr ""
 
+msgid "Registrations"
+msgstr ""
+
+msgid "Enable user registrations on this site"
+msgstr ""
+
+msgid "Automatically activate users"
+msgstr ""
+
+msgid "If false, when a user registers they will have to confirm their email"
+msgstr ""
+
+msgid "Login redirection location"
+msgstr ""
+
+msgid "Where will the user end up after logging in"
+msgstr ""
+
+msgid "New user role"
+msgstr ""
+
+msgid "The user role for users when registering"
+msgstr ""
+
+msgid "Semi-public profile"
+msgstr ""
+
+msgid "Only show user profiles for logged in users, otherwise for all visitors"
+msgstr ""
+
+msgid "Show email on public profile"
+msgstr ""
+
+msgid "Shows the users email on their public profile"
+msgstr ""
+
+msgid "Public user options"
+msgstr ""
+
 msgid "Select a template"
 msgstr "Dewis templed"
 
@@ -355,7 +420,7 @@ msgid "A pre-defined template for user profile creation."
 msgstr ""
 
 msgid "You have successfully logged in"
-msgstr "You have successfully logged in"
+msgstr ""
 
 msgid "Your email or password is invalid"
 msgstr ""
@@ -402,17 +467,14 @@ msgstr ""
 msgid "Something went wrong updating your details."
 msgstr ""
 
-msgid "The current password entered was invalid"
-msgstr "Nid oedd y cyfrinair yma yn ddilys"
-
 msgid "Password successfully changed"
-msgstr "Newidiwyd y cyfrinair yn llwyddiannus"
+msgstr "Cyfrinair wedi ei newid yn llwyddiannus"
 
 msgid "Successfully logged in"
-msgstr "Wedi mewngofnodi yn llwyddiannus"
+msgstr "Mewngofnodwyd yn llwyddiannus"
 
 msgid "Email or password is invalid"
-msgstr "Nid yw'r ebost neu'r cyfrinair yn ddilys"
+msgstr "Nid yw'r ebost neu gyfrinair yn ddilys"
 
 msgid "Mark %s as incomplete"
 msgstr ""
@@ -611,7 +673,13 @@ msgid "Add directly to site after importing"
 msgstr ""
 
 msgid "Bookmark"
-msgstr "Llyfrnod"
+msgstr "Llyfrnodi"
+
+msgid "Enable item search"
+msgstr ""
+
+msgid "When enabled, the search will return Omeka items"
+msgstr ""
 
 msgid "Multi-lingual site"
 msgstr ""
@@ -687,6 +755,90 @@ msgid "Create IIIF Manifest"
 msgstr ""
 
 msgid "Create IIIF Canvas"
+msgstr ""
+
+msgid "Use carousel on collection page"
+msgstr ""
+
+msgid ""
+"When viewing a collection of manifests, show each manifest as a carousel, "
+"instead of a single thumbnail. NOTE: this will request more canvases and may "
+"slow down page, consider reducing the manifests per page below."
+msgstr ""
+
+msgid "Use original IDs"
+msgstr ""
+
+msgid "By default, "
+msgstr ""
+
+msgid "Collections per page"
+msgstr ""
+
+msgid "Amount of collections to view on top level collection per page"
+msgstr ""
+
+msgid "Manifests per collection"
+msgstr ""
+
+msgid "Amount of manifests to show per collection"
+msgstr ""
+
+msgid "Manifests per page"
+msgstr ""
+
+msgid "Amount of manifests to view on a collection per page"
+msgstr ""
+
+msgid "Canvases per page"
+msgstr ""
+
+msgid "Amount of canvases to view on a manifest per page"
+msgstr ""
+
+msgid "IIIF Storage options"
+msgstr ""
+
+msgid "Enable bookmarking"
+msgstr ""
+
+msgid "Allows logged in users to bookmark IIIF canvases"
+msgstr ""
+
+msgid "Enable mark as complete"
+msgstr ""
+
+msgid ""
+"Allows users to mark a page as complete, allowing no further annotations"
+msgstr ""
+
+msgid "Enable user created annotations"
+msgstr ""
+
+msgid "Allows users to create annotations"
+msgstr ""
+
+msgid "Enable user flagging"
+msgstr ""
+
+msgid "Allows users to flag content (requires backend service)"
+msgstr ""
+
+msgid "Enable users to see annotations"
+msgstr ""
+
+msgid "Allows users to see created annotations"
+msgstr ""
+
+msgid "Show single collection"
+msgstr ""
+
+msgid ""
+"By default if there is only one collection, the collection list will "
+"redirect to this. This option will disable that behaviour"
+msgstr ""
+
+msgid "Crowd sourcing"
 msgstr ""
 
 msgid "Manifests"

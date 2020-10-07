@@ -2478,7 +2478,7 @@ msgid "Editing users. This may take a while."
 msgstr ""
 
 msgid "Successfully logged in"
-msgstr "Wedi mewngofnodi yn llwyddiannus"
+msgstr "Mewngofnodwyd yn llwyddiannus"
 
 msgid "Email or password is invalid"
 msgstr "Nid yw'r ebost neu'r cyfrinair yn ddilys."
