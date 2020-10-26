@@ -24,3 +24,22 @@ curl -X "PUT" "http://localhost:9203/jane-annotations"
 
 and this will allow you to start using the statistics module and also start indexing the annotations. Elasticsearch is available at: http://localhost:9203/jane-annotations/_search
 and the search interface (Jane Founda) is available at http://localhost:8103/.
+
+## Annotation studio translations
+
+If you want to add translations for a specific site for annotation studio you can create a file under:
+```
+translations/s/{site-slug}/annotation-studio.json
+```
+And then have a format that looks like this:
+```
+{
+  "en": {
+    "editor.edit": "Edit"
+  },
+  "cy": {
+    "editor.edit": "Golygu"
+  }
+}
+```
+With the overrides. The originals can be found [here](https://github.com/digirati-co-uk/annotation-studio/tree/c98ceb3634e19681f7dbcd9e8987e43f2f771041/packages/annotation-redux/src/locale)
