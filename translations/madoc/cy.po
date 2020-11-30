@@ -194,8 +194,14 @@ msgstr ""
 msgid "Global translations"
 msgstr ""
 
+msgid "Get Started"
+msgstr "Cychwyn"
+
 msgid "view all images"
 msgstr ""
+
+msgid "Page % of %"
+msgstr "Tudalen % o %"
 
 msgid "Previous Image"
 msgstr "Delwedd flaenorol"
@@ -208,6 +214,9 @@ msgstr "Tudalen nesaf"
 
 msgid "Previous page"
 msgstr "Tudalen blaenorol"
+
+msgid "Interact with this document"
+msgstr "Rhyngweithio â'r ddogfen hon"
 
 msgid "Flag as inappropriate"
 msgstr "Fflagio fel anaddas"
