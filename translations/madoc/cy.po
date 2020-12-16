@@ -194,14 +194,14 @@ msgstr ""
 msgid "Global translations"
 msgstr ""
 
-msgid "Get Started"
+msgid "Get started"
 msgstr "Cychwyn"
 
 msgid "view all images"
 msgstr ""
 
-msgid "Page % of %"
-msgstr "Tudalen % o %"
+msgid "Page %d of %d"
+msgstr "Tudalen %d o %d"
 
 msgid "Previous Image"
 msgstr "Delwedd flaenorol"
