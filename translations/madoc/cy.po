@@ -263,14 +263,23 @@ msgstr "Delwedd"
 msgid "Mark as complete"
 msgstr "Wedi ei gwblhau"
 
+msgid "Mark page as complete"
+msgstr "Y tudalen wedi ei gwblhau"
+
 msgid "This page needs more work"
-msgstr ""
+msgstr "Mae angen mwy o waith ar y tudalen"
 
 msgid "Is this page complete?"
 msgstr "Ydi'r dudalen hon wedi'i chwblhau?"
 
-msgid "This page has been marked as completed.<br/"
-msgstr ""
+msgid "This page has been marked as completed.<br>"
+msgstr "Nodwyd fod y tudalen yma wedi ei gwblhau.<br>"
+
+msgid "You can mark as incomplete if it needs more work."
+msgstr "Os oes angen mwy o waith arno nodwch ei fod heb ei gwblhau."
+
+msgid "Mark as incomplete"
+msgstr "Heb ei gwblhau"
 
 msgid ""
 "Marking this page as complete helps us to understand the progress of "
