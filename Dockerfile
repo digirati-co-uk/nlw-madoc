@@ -20,5 +20,6 @@ ADD --chown=www-data:www-data ./translations/s/llgc/navigation/cy.mo /srv/omeka/
 ADD --chown=www-data:www-data ./translations/s/llgc/navigation/cy.po /srv/omeka/translations/s/llgc/navigation/cy.po
 ADD --chown=www-data:www-data ./translations/s/hwiangerddi/navigation/cy.mo /srv/omeka/translations/s/hwiangerddi/navigation/cy.mo
 ADD --chown=www-data:www-data ./translations/s/hwiangerddi/navigation/cy.po /srv/omeka/translations/s/hwiangerddi/navigation/cy.po
-
+ADD --chown=www-data:www-data ./translations/s/cardiau-phase-2/navigation/cy.mo /srv/omeka/translations/s/cardiau-phase-2/navigation/cy.mo
+ADD --chown=www-data:www-data ./translations/s/cardiau-phase-2/navigation/cy.po /srv/omeka/translations/s/cardiau-phase-2/navigation/cy.po
 # Add any other configuration needed.
