@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n==3 ? 3 : n==6 ? 4 : 5);\n"
+"Language: cy\n"
+
+msgid "Home"
+msgstr "Hafan"
+
+msgid "Projects"
+msgstr "Prosiectau"
+
+msgid "About"
+msgstr "Am"
+
+msgid "Help"
+msgstr "Cymorth"
+
+msgid "Contact Us"
+msgstr "Cysylltu"
+
+msgid "Privacy"
+msgstr "Preifatrwydd"
